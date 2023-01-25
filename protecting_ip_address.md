@@ -9,6 +9,12 @@ User --> Server --> Page (communication encrypted)
 
 - VPN leaking metadata: os, browser, screen resolution, type of computer?, list of plug-ins, time zone, color depth, list of fonts, cookies
 
+Links: 
+
+- https://browserleaks.com/dns
+
+- https://www.dnsleaktest.com/
+
 # TOR
 
 - Creating generic fingerprint so the user cannot be indentified via metadata
@@ -20,7 +26,7 @@ User --> Server --> Page (communication encrypted)
 
 **Three main ways to attack**
 
-- Block all traffic like tor and chinese wall. (note: The exit node is recognizable, which means that it is not possible to go to certain pages when using Tor)
+- Block all traffic like tor and chinese firewall. (note: The exit node is recognizable, which means that it is not possible to go to certain pages when using Tor)
 
 - Take over 80% and taint the paquets. (Note: How likely is this?)
 
@@ -29,8 +35,8 @@ User --> Server --> Page (communication encrypted)
 **Risk with using TOR**
 
 there are a number of known risks using tor.
-1) it's mostly funded by US govt.  
-2) exit/entry nodes can be fradulent (since it's free to set up these - any number of them)  
+1) It was created by a U.S. government agency and it's mostly funded by US govt. https://blog.torproject.org/transparency-openness-and-our-2020-and-2021-financials/  
+2) exit/entry nodes can be surveilled or run by malicious parties (since it's free to set up these - any number of them can potentially act against your privacy)  
 3) metadata fingerprinting still happens
 
 # Safing
