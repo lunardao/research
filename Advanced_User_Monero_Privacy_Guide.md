@@ -21,9 +21,9 @@ Advanced user Monero privacy guide
 ## Metadata Considerations | Potential Attack Vectors
 
 - Timing analysis - run a full node. Keep it running 24/7, you can run an open node that other people can route transactions through, which you can hide among these other people routing through this node.
-- counterparty surveillance
-- churning (?)
-- Remote node considerations
+- counterparty surveillance - counterparty surveillance is going to be about interacting with potential malicious parties that want to surveill your transactions (it could be a marketplace that reports transaction info to authorities, in the hope of de-anonymizing users)
+- churning (?) - churning is the act of sending your self funds to create a new ring signature and break the transaction graph 
+- Remote node considerations - related to timing analysis,  if you routinely connect to a remote node when youre going to spend funds, this network data leaks info about your spending habits 
 
 Many attackers are observing information on-chain but also grabs off-chain data
 
