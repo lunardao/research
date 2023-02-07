@@ -1,9 +1,13 @@
 Advanced user Monero privacy guide
 
 
+## What Monero is
+
+## What Monero is not
+
 ## Wallets
 
-- Feather Wallet - [https://featherwallet.org/](https://featherwallet.org/)
+- Feather Wallet - [https://featherwallet.org/](https://featherwallet.org/) - Feather Wallet is a desktop power user wallet that gives greater control over features that many mobile wallets overlook. 
 - Monerujo - [https://www.monerujo.io/](https://www.monerujo.io/)
 - Anonero - [https://gitea.com/ANONERO/ANON/releases](https://gitea.com/ANONERO/ANON/releases)
 
