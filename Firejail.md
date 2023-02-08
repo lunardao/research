@@ -47,7 +47,7 @@ To view the benefits of librewolf visit our [privacy tools](https://wiki.lunarda
 
 Once both librewolf and firejail are installed, build a librewolf profile for firejail to use.
 ```sh
-firejail --build=firewolf.profile firewolf
+firejail --build=librewolf.profile librewolf
 ```
 
 After building a librewolf profile, run this command with no further configurations.
