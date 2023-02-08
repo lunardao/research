@@ -65,3 +65,5 @@ To check if firejail is working:
 firejail --list
 ```
 It will list all applications that are sandboxed.
+
+Firejail configuration wizard gui, which after installation is included in the application menu, can just like the cli also be used to select security settings for application.
