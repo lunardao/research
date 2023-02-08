@@ -3,6 +3,14 @@ https://firejail.wordpress.com/
 
 Firejail allows a process and all its descendants to have their own private view of the globally shared kernel resources. There are no dependencies for firejail and can run on any linux computer running kernel 3.8 or higher. Firejail creates a security sandbox around any type of process. This sandbox restricts the process' running environment to a linux namespace. There are very little configurations to edit.
 
+## Benefits of Firejail
+
+If you are running a process in a sandbox, you control the environment in which the process is being run.
+
+Firejail uses the linux kernel security features. It's used to restrict access to files and system capabilities from programs running on a computer.
+
+Firejail is a program that restricts untrusted applications, and gives a process its own private access of the globally shared kernel and kernel resources including network, process table and mount table. The Firejail sandbox protects any type of process and any descendant of that firejail'd process.
+
 ## Downloading Firejail
 Arch Linux:
 > pacman -S firejail
@@ -41,15 +49,8 @@ After building a librewolf profile, you can run this command with no further con
 You now have librewolf running in a security sandbox.
 
 
-## Benefits of Firejail
-
-If you are running a process in a sandbox, you control the environment in which the process is being run.
-
-Firejail uses the linux kernel security features. It's used to restrict access to files and system capabilities from programs running on a computer.
-
 You can run an application entirely in memory with this command (you must specify the path to the process).
 
 > firejail --private /usr/bin/librewolf
 
-Firejail is a program that restricts untrusted applications, and gives a process its own private access of the globally shared kernel and kernel resources including network, process table and mount table.
 
