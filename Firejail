@@ -41,8 +41,15 @@ After building a librewolf profile, you can run this command with no further con
 You now have librewolf running in a security sandbox.
 
 
-## Benefits of firejail
+## Benefits of Firejail
 
 If you are running a process in a sandbox, you control the environment in which the process is being run.
 
 Firejail uses the linux kernel security features. It's used to restrict access to files and system capabilities from programs running on a computer.
+
+You can run an application entirely in memory with this command (you must specify the path to the process).
+
+> firejail --private /usr/bin/librewolf
+
+Firejail is a program that restricts untrusted applications, and gives a process its own private access of the globally shared kernel and kernel resources including network, process table and mount table.
+
