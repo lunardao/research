@@ -25,15 +25,15 @@ Advanced user Monero privacy guide
 ## Metadata Considerations | Potential Attack Vectors
 
 - Timing analysis - run a full node. Keep it running 24/7, you can run an open node that other people can route transactions through, which you can hide among these other people routing through this node.
-- counterparty surveillance - counterparty surveillance is going to be about interacting with potential malicious parties that want to surveill your transactions (it could be a marketplace that reports transaction info to authorities, in the hope of de-anonymizing users)
-- churning (?) - churning is the act of sending your self funds to create a new ring signature and break the transaction graph 
-- Remote node considerations - related to timing analysis,  if you routinely connect to a remote node when youre going to spend funds, this network data leaks info about your spending habits 
+- Counterparty surveillance - counterparty surveillance is going to be about interacting with potential malicious parties that want to surveill your transactions (it could be a marketplace that reports transaction info to authorities, in the hope of de-anonymizing users).
+- Churning: churning is the act of sending your self funds to create a new ring signature and break the transaction graph. 
+- Remote node considerations related to timing analysis: if you routinely connect to a remote node when you're going to spend funds, this network data leaks info about your spending habits. 
 
-Many attackers are observing information on-chain but also grabs off-chain data
+Many attackers are observing information on-chain but also grabs off-chain data.
 
-Block explorer - transaction and IP address linking - if using a block explorer, use a hidden service over TOR or I2P. When using a block explorer, 
+Block explorer - transaction and IP address linking: if using a block explorer, use a hidden service over TOR or I2P. When using a block explorer: 
 
-- Use TOR, VPN, I2p. Use different browser sessions.
+- Use TOR, VPN, I2P. Use different browser sessions.
 
 - **Best solution:** run your own node and you can query the information locally.
 
