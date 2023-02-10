@@ -3,11 +3,18 @@ Advanced user Monero privacy guide
 
 ## What Monero is
 
+- General description of Monero's consensus, security and UTXO based model. Monero follows the UTXO-based model that Bitcoin pioneered. Monero utilizies a few privacy technologies implemented into the core protocol.
+
+- Stealth Addresses
+- Ring Signatures
+- Ring CT
 ## What Monero is not
 
+Monero is one of the most private cryptocurrencies currently available along with having the largest user-base. Though, there are trade-offs when using Monero. There is still a risk when using a public blockchain that is currently private. As technology advances or breakthroughs occur, a once private transaction may be broken and publicly visible for attackers to trace. For Monero, this isn't currently possible by any known techniques as of today, but this is a risk with using any public distributed ledger technology.
 ## Wallets
 
 - Feather Wallet - [https://featherwallet.org/](https://featherwallet.org/) - Feather Wallet is a desktop power user wallet that gives greater control over features that many mobile wallets overlook. 
+
 - Monerujo - [https://www.monerujo.io/](https://www.monerujo.io/)
 - Anonero - [https://gitea.com/ANONERO/ANON/releases](https://gitea.com/ANONERO/ANON/releases)
 
