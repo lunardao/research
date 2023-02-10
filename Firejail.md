@@ -67,3 +67,13 @@ firejail --list
 It will list all applications that are sandboxed.
 
 Firejail configuration wizard gui, which after installation is included in the application menu, can just like the cli also be used to select security settings for application.
+
+To disable firejail temporarily
+```sh
+sudo firecfg --clean
+```
+
+To re-enable firejail
+```sh
+sudo firecfg
+```
