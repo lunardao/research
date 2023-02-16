@@ -12,4 +12,4 @@
 - [https://documentation.aragon.org/products/aragon-vocdoni/navigating-your-vocdoni-organization/creating-a-voting-proposal](https://documentation.aragon.org/products/aragon-vocdoni/navigating-your-vocdoni-organization/creating-a-voting-proposal)
 [https://documentation.aragon.org/products/aragon-vocdoni/navigating-your-vocdoni-organization/voting-on-a-proposal-1](https://documentation.aragon.org/products/aragon-vocdoni/navigating-your-vocdoni-organization/voting-on-a-proposal-1)
 
-![](add picture)
+![](pics/aragon_anon_voting.png)
