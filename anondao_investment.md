@@ -17,6 +17,10 @@
 
 **More info**
 
+- [Vocdoni anonymous voting](https://blog.aragon.org/introducing-vocdoni-anonymous-voting/)
+
+- [Technical Deep-Dive: Anonymous Voting with zk-SNARKs](https://blog.aragon.org/technical-deep-dive-anonymous-voting-with-zk-snarks/)
+
 - [https://documentation.aragon.org/products/aragon-vocdoni/navigating-your-vocdoni-organization/creating-a-voting-proposal](https://documentation.aragon.org/products/aragon-vocdoni/navigating-your-vocdoni-organization/creating-a-voting-proposal)  
 
 - [https://documentation.aragon.org/products/aragon-vocdoni/navigating-your-vocdoni-organization/voting-on-a-proposal-1](https://documentation.aragon.org/products/aragon-vocdoni/navigating-your-vocdoni-organization/voting-on-a-proposal-1)
