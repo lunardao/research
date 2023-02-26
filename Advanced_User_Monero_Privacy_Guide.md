@@ -20,10 +20,17 @@ Monero is one of the most private cryptocurrencies currently available along wit
 - Monerujo - [https://www.monerujo.io/](https://www.monerujo.io/)
 - Anonero - [https://gitea.com/ANONERO/ANON/releases](https://gitea.com/ANONERO/ANON/releases)
 
+
+## Monero Nodes
+- XMR Fail - [https://monero.fail/](https://monero.fail/)
 ## Obtaining Monero
 
 - Local Monero - [https://localmonero.co/](https://localmonero.co/)
 - Mining - https://p2pool.io/
+
+## Atomic Swaps
+- Unstoppable Swap GUI **Bitcoin to Monero** - [https://unstoppableswap.net/](https://unstoppableswap.net/)
+
 
 ## Spending Best Practices
 
