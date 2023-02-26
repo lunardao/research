@@ -4,6 +4,8 @@ Advanced user Monero privacy guide
 ## What Monero is
 
 - General description of Monero's consensus, security and UTXO based model. Monero follows the UTXO-based model that Bitcoin pioneered. Monero utilizies a few privacy technologies implemented into the core protocol.
+- Monero uses Proof of Work consensus. CPU's are used to mine XMR instead of ASIC
+
 
 - Stealth Addresses
 - Ring Signatures
@@ -21,13 +23,13 @@ Monero is one of the most private cryptocurrencies currently available along wit
 ## Obtaining Monero
 
 - Local Monero - [https://localmonero.co/](https://localmonero.co/)
-- Mining
+- Mining - https://p2pool.io/
 
 ## Spending Best Practices
 
 - Advanced attacks: Poisoned Outputs Attacks (EAE Attacks)- Avoid posting addresses online or re-using addresses. Use a new subaddress for every transaction. Avoid malicious entites on both sides of your transactions. Reduce the interations with malicious parties that could surveil your transactions. 
 
-- Janus attack mitigations - If trying to completely maintain 100% subaddress unlinkability, use different wallet seeds. This is a tradeoff of convenience for privacy.
+- Janus attack mitigations - If trying to completely maintain 100% subaddress unlinkability, use different wallet seeds. This is a tradeoff of convenience for privacy. Who is the adersary in this attack? 
 
 ## Metadata Considerations | Potential Attack Vectors
 
@@ -53,5 +55,6 @@ Block explorer - transaction and IP address linking: if using a block explorer, 
 
 - [https://github.com/monero-project/research-lab/issues/94](https://github.com/monero-project/research-lab/issues/94)
 - Breaking Monero: [https://youtube.com/watch?v=n6Bxp0k7Uqg](https://youtube.com/watch?v=n6Bxp0k7Uqg)
-
+- https://moneroj.net/dominance/ Monero on-chain metrics
+- https://www.monero.how/ Monero on-chain metrics
 
