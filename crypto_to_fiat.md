@@ -101,4 +101,11 @@ In this example we aim to get 900E out from an ATM in a private way, starting fr
   - Do not swap big amounts of money with a classmate, collegue just because it's cheaper and non KYC - that person is a security risk for your private tx.
 - Maybe you don't always have a need to be fully anonymous, but when you do --> Do not act on hope, use excuses or be lazy. Privacy won't be served by the ones who are the most interested in data gathering and transaction monitoring!
 
+# Resources
+
+- ### See [**Privacy tools**](https://wiki.lunardao.net/list_privacy_tools.html) section about *Virtual payment cards* for anonymous payments cards to which the user can deposit crypto.
+
+- ### See [**Privacy projects**](https://wiki.lunardao.net/crypto_privacy_projects.html) section on *P2P Trading platforms* about local BTC and Monero exchanges.
+
+- ### [List of BTC ATMs](https://coinatmradar.com/countries/)
 
