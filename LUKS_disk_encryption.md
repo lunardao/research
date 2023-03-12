@@ -1,5 +1,7 @@
 # LUKS disk encryption
 
+*This guide is focused on Linux systems*.
+
 * Go to Accessories --> Disks
 * Select the USB you want to encrypt
 * select the double wheel and choose *'Format partition'*
