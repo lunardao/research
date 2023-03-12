@@ -38,31 +38,31 @@ Take few minutes and a sheet of paper. Sketch the whole process before starting 
 
 # Crypto We Want to Sell and Tools of Exchanging
 
-In case we got paid in USDC/USDT/DAI and wanna cash out - How do we get these to BTC?
+In case we got paid in USDC/USDT/DAI and want to cash out - How do we get these to BTC?
 
 ## DEX, Bridges, Swaps
 
 **In case BTC is the coin for the final trade -  Option 1**
 
 - First, create a BTC wallet (even a hot one for temporary use). Preferrably [**Electrum on TAILS**](https://electrum.org/#home) (save the seed and password well, ie. in [KeepassXC](https://keepassxc.org/)).
-- Monero can ie. be swapped in [Cake wallet app](https://cakewallet.com/).
+- Monero can be swapped in [Cake wallet app](https://cakewallet.com/).
 - In case XMR wasn't the payment method (and BTC is the currency for withdrawal), we need to run our transaction through XMR before getting to the final/"clean" BTC.
 - This means to:
-1. Swap our coin to XMR. Either using Cake wallet or swaps listed on [getmonero.com](getmonero.com) (on chain BTC-XMR swaps).
-2. Send to another XMR wallet to add complexity in case you have been traced.
+1. Swap our coin to XMR. Either using Cake wallet or swaps listed on [getmonero.com](getmonero.com) (on chain BTC-XMR swaps). <!--- .. The swap services mentioned on getmonero.org are not good swap services, you can mention services like majesticbank.sc , trocador.app, fixedfloat.com, or https://stealthex.io/) --->
+2. Send to another XMR wallet to add complexity in case you are being tracked. <!--- .. It would be good to suggest sending to an xmr thats not connected to the same node, or send to an XMR address you control that you are using on your own node --->
 3. Swap to BTC in Cake Wallet, which is not used for other payments.
 
 **In case BTC is the coin for the final trade -  Option 2**
 
 - The assets for withdrawal is in ETH.
 - Got through the steps in [Anonymizing assets](https://wiki.lunardao.net/anonymizing_assets.html).
-- Go to [sideshift](https://sideshift.ai/) and swap from ETH to BTC.
-- Withdraw via ATM.
+- Go to [sideshift](https://sideshift.ai/) and swap from ETH to BTC. <!--- .. Id suggest something like trocador.app (Which has an onion address) or fixedfloat.com --->
+- Withdraw via ATM. [List of BTC ATMs](https://coinatmradar.com/countries/) <!--- .. Is it easy to withdraw cash from a crypto ATM, or are there restrictions on size --->
 
 **Possibilities:**
 
 1. **Bity to family or friend**  
-Run XMR transaction, swap to clean BTC, new TAILS wallet, and use non registered [bity.com](bity.com) transaction (crypto to card) via a friend or a family member.
+Run XMR transaction, swap to clean BTC, new TAILS wallet, and use non registered [bity.com](bity.com) transaction (crypto to card) via a friend or a family member. <!--- .. I think this description can be expanded upon more, it doesn't seem like there's enough detail --->
 
 For this option it's also possible to go through steps in [Anonymizing assets](https://wiki.lunardao.net/anonymizing_assets.html) and then proceed to [bity.com](bity.com) using ETH.
 
@@ -83,23 +83,23 @@ In this example we aim to get 900E out from an ATM in a private way, starting fr
 
 1. Check where your ATM is, what % fees and static fees is included.
 2. Sketch out the whole path of swaps and calculate all the fees.
-3. Install new cake wallet and [Monero cli](https://www.getmonero.org/downloads/#cli) (or [GUI wallet](https://www.getmonero.org/downloads/)) on Linux (preferably on TAILS), or make two Cake Wallets.
+3. Install new cake wallet and [Monero cli](https://www.getmonero.org/downloads/#cli) (or [GUI wallet](https://www.getmonero.org/downloads/)) on Linux (preferably on TAILS), or make two Cake Wallets connected to two different nodes.
 4. Calculate 900E into USD, add all the fees on the way (ATM, swaps, transactions)
-5. Add 1% for volatily (price changes) on top and calculate how much BTC that will be.
+5. Add 1% for volatily (price changes) on top and calculate how much BTC that will be. <!--- .. depending on length of time, price change can be larger than 1% --->
 6. Swap that BTC to XMR using Cake wallet.
-7. Send XMR to another Cake wallet (CLEAN!!! --> this means that the wallet have been set up while protecting IP address and metadata).
+7. Send XMR to another Cake wallet (CLEAN!!! --> this means that the wallet has been set up while protecting IP address and metadata).
 8. Swap to BTC.
-9. Withdraw from non-KYC ATM, be as low profile as possible (read notes on privacy).
+9. Withdraw from non-KYC ATM, be as inconspicuous as possible (read notes on privacy).
 
 # Note on Privacy
 
-- Remember well what wallets your identity is connected to: your phone, Bank Account, MAC, IP, KYC, paying to your family etcetera.
+- Remember well what wallets your identity is connected to: your phone, Bank Account, MAC, IP, KYC, paying to your family etc. It would be best to label all of your wallets
 - If aiming for privacy - use:
   - Non-KYC ATMs
   - All "covid prevention" (glasses, gloves and respirator when withdrawing)
   - Do not walk there with your personal phone in your pocket.
-  - Do not swap big amounts of money with a classmate, collegue just because it's cheaper and non KYC - that person is a security risk for your private tx.
-- Maybe you don't always have a need to be fully anonymous, but when you do --> Do not act on hope, use excuses or be lazy. Privacy won't be served by the ones who are the most interested in data gathering and transaction monitoring!
+  - Do not swap big amounts of money with people close to you such as a classmate or colleague just because it's cheaper and non KYC - that person is a security risk for your private tx.
+- You don't always have a need to be fully anonymous, but when you do --> Do not act on hope, use excuses or be lazy. Privacy won't be served by the ones who are the most interested in data gathering and transaction monitoring!
 
 # Resources
 
@@ -110,4 +110,5 @@ In this example we aim to get 900E out from an ATM in a private way, starting fr
 - ### [List of BTC ATMs](https://coinatmradar.com/countries/)
 
 
-<!--- notes: Suggest using cake wallet with tor nodes, Consider using Trocador.app or Majestic Bank for swap services as well, they've got hidden services --->
+<!--- notes: Suggest for XMR using cake wallet with tor nodes, or Monerujo wallet (which by default uses TOR only)
+ Consider using Trocador.app or Majestic Bank for swap services as well, they've got hidden services --->
