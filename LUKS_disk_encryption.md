@@ -15,7 +15,9 @@
 
 ![](pics/password.png)
 
-* Make sure the password is not predictable.
+* Make sure the password is not predictable. See below.
+
+![](pics/password_creation.png)
 
 * There will be a warning that all content on the disk will be deleted.
 
