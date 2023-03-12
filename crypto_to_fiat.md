@@ -48,8 +48,8 @@ In case we got paid in USDC/USDT/DAI and want to cash out - How do we get these 
 - Monero can be swapped in [Cake wallet app](https://cakewallet.com/).
 - In case XMR wasn't the payment method (and BTC is the currency for withdrawal), we need to run our transaction through XMR before getting to the final/"clean" BTC.
 - This means to:
-1. Swap our coin to XMR. Either using Cake wallet or swaps listed on [getmonero.com](getmonero.com) (on chain BTC-XMR swaps). <!--- .. The swap services mentioned on getmonero.org are not good swap services, you can mention services like majesticbank.sc , trocador.app, fixedfloat.com, or https://stealthex.io/) --->
-2. Send to another XMR wallet to add complexity in case you are being tracked. <!--- .. It would be good to suggest sending to an xmr thats not connected to the same node, or send to an XMR address you control that you are using on your own node --->
+1. Swap your coin to XMR. Either using Cake wallet or swaps listed on [getmonero.com](getmonero.com) (on chain BTC-XMR swaps). <!--- .. The swap services mentioned on getmonero.org are not good swap services, you can mention services like majesticbank.sc , trocador.app, fixedfloat.com, or https://stealthex.io/) --->
+2. Send to another XMR wallet to add complexity in case you are being tracked. <!--- .. It would be good to suggest sending to an xmr wallet thats not connected to the same node, or send to a different XMR wallet you control that you are using on your own  XMR node --->
 3. Swap to BTC in Cake Wallet, which is not used for other payments.
 
 **In case BTC is the coin for the final trade -  Option 2**
