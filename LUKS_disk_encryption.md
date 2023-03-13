@@ -41,4 +41,17 @@
 
 ![](pics/luks/eject.png)
 
+# Troubleshooting
+
+If the owner is set to root, it won't be possible to create folders, paste documents etcetera. If this happens, do this:
+
+- In Accessories/Disks (might be in differebt location depending on OS) where the user is encrypting the USB, there is device information, ie. /dev/sda1 which is the name of the USB. Note it down.
+
+```bash
+sudo chmod 700 /dev/sda1
+```
+
+- Chmod 700 means that the owner have all permissions. Che [this](https://linuxhandbook.com/chmod-command/) out for more info about chmod.
+
+- Now there should be no problem accessing and creating content on the USB.
 
