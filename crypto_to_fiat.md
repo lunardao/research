@@ -12,7 +12,7 @@ There are grey zones in regards to withdrawals, ie. ways to use CEX like Kucoin 
 
 Here are some things to keep in mind before starting.
 
-- It is preferred to start these operations on [Tails](https://tails.boum.org/) or in a [Virtual machine](https://wiki.lunardao.net/virtualbox_whonix.html). If so, the second point below is not needed.
+- It is preferred to start these operations on [Tails](https://tails.boum.org/install/) or in a [Virtual machine](https://wiki.lunardao.net/virtualbox_whonix.html). If so, the second point below is not needed.
 - If using a regular OS --> Do not operate without hiding IP address and metadata. Use for example [NYM](https://nymtech.net/), [HOPR](https://hoprnet.org/) or [Lokinet](https://lokinet.org/).
 - If nothing else, use VPN, such as [ProtonVPN](https://protonvpn.com/download) or [Mullvad VPN](https://mullvad.net/en/pricing/) (remember that VPNs hides location, but not necessarily metadatabut. The VPN provider can observe your origination point) or use [Tor browser](https://www.torproject.org/download/).
 - Do not use same wallet which you are using for doxxed crypto. 
@@ -44,7 +44,7 @@ In case we got paid in USDC/USDT/DAI and want to cash out - How do we get these 
 
 **In case BTC is the coin for the final trade -  Option 1**
 
-- First, create a BTC wallet (even a hot one for temporary use). Preferrably [**Electrum on TAILS**](https://electrum.org/#home) (save the seed and password well, ie. in [KeepassXC](https://keepassxc.org/)).
+- First, create a BTC wallet (even a hot one for temporary use). Preferrably [**Electrum**](https://electrum.org/#home) on [**TAILS**](https://tails.boum.org/install/) (save the seed and password well, ie. in [KeepassXC](https://keepassxc.org/)).
 - Monero can be swapped on [Trocador](trocador.app).
 - In case XMR wasn't the payment method (and BTC is the currency for withdrawal), we need to run our transaction through XMR before getting to the final/"clean" BTC.
 - This means to:
