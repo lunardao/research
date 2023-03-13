@@ -13,7 +13,7 @@ There are grey zones in regards to withdrawals, ie. ways to use CEX like Kucoin 
 Here are some things to keep in mind before starting.
 
 - It is preferred to start these operations on [Tails](https://tails.boum.org/) or in a [Virtual machine](https://wiki.lunardao.net/virtualbox_whonix.html). If so, the second point below is not needed.
-- If using a regular OS --> Do not operate without hiding IP address and metadata. Use for example [NYM](https://nymtech.net/), [HOPR](https://hoprnet.org/) or https://lokinet.org/.
+- If using a regular OS --> Do not operate without hiding IP address and metadata. Use for example [NYM](https://nymtech.net/), [HOPR](https://hoprnet.org/) or [Lokinet](https://lokinet.org/).
 - If nothing else, use VPN, such as [ProtonVPN](https://protonvpn.com/download) or [Mullvad VPN](https://mullvad.net/en/pricing/) (remember that VPNs hides location, but not necessarily metadatabut. The VPN provider can observe your origination point) or use [Tor browser](https://www.torproject.org/download/).
 - Do not use same wallet which you are using for doxxed crypto. 
 
@@ -45,29 +45,65 @@ In case we got paid in USDC/USDT/DAI and want to cash out - How do we get these 
 **In case BTC is the coin for the final trade -  Option 1**
 
 - First, create a BTC wallet (even a hot one for temporary use). Preferrably [**Electrum on TAILS**](https://electrum.org/#home) (save the seed and password well, ie. in [KeepassXC](https://keepassxc.org/)).
-- Monero can be swapped in [Cake wallet app](https://cakewallet.com/).
+- Monero can be swapped on [Trocador](trocador.app).
 - In case XMR wasn't the payment method (and BTC is the currency for withdrawal), we need to run our transaction through XMR before getting to the final/"clean" BTC.
 - This means to:
-1. Swap your coin to XMR. Either using Cake wallet or swaps listed on [getmonero.com](getmonero.com) (on chain BTC-XMR swaps). <!--- .. The swap services mentioned on getmonero.org are not good swap services, you can mention services like majesticbank.sc , trocador.app, fixedfloat.com, or https://stealthex.io/) --->
-2. Send to another XMR wallet to add complexity in case you are being tracked. <!--- .. It would be good to suggest sending to an xmr wallet thats not connected to the same node, or send to a different XMR wallet you control that you are using on your own  XMR node --->
+1. Swap your coin to XMR. use:  
+- [Trocador](trocador.app)  
+- [Fixed float](fixedfloat.com)  
+- [Stealthex](https://stealthex.io/)
+2. Send to another XMR wallet that is not connected to the same node, or to a XMR wallet that is running on own XMR node. This add complexity in case you are being tracked. Here is more info on how to [run a node](https://www.monero.how/how-to-run-monero-node). 
 3. Swap to BTC in Cake Wallet, which is not used for other payments.
 
 **In case BTC is the coin for the final trade -  Option 2**
 
 - The assets for withdrawal is in ETH.
-- Got through the steps in [Anonymizing assets](https://wiki.lunardao.net/anonymizing_assets.html).
-- Go to [sideshift](https://sideshift.ai/) and swap from ETH to BTC. <!--- .. Id suggest something like trocador.app (Which has an onion address) or fixedfloat.com --->
-- Withdraw via ATM. [List of BTC ATMs](https://coinatmradar.com/countries/) <!--- .. Is it easy to withdraw cash from a crypto ATM, or are there restrictions on size --->
+- Go through the steps in [Anonymizing assets](https://wiki.lunardao.net/anonymizing_assets.html).
+- Go to [Trocador](trocador.app) or [Fixed float](fixedfloat.com) and swap from ETH to BTC. 
+- Withdraw via ATM. [List of BTC ATMs](https://coinatmradar.com/countries/). The limit is generally 900 Euros. 
 
 **Possibilities:**
 
 1. **Bity to family or friend**  
-Run XMR transaction, swap to clean BTC, new TAILS wallet, and use non registered [bity.com](bity.com) transaction (crypto to card) via a friend or a family member. <!--- .. I think this description can be expanded upon more, it doesn't seem like there's enough detail --->
-
-For this option it's also possible to go through steps in [Anonymizing assets](https://wiki.lunardao.net/anonymizing_assets.html) and then proceed to [bity.com](bity.com) using ETH.
+Run XMR transaction, swap to clean BTC, new TAILS wallet, and use non registered [bity.com](bity.com) transaction (crypto to card) via a friend or a family member, who can withdraw and pass cash. the withdrawal via Bity is limited to 900 Euros at a time.
 
 - This will obscure: Where the money originated, what was the total sum, and the fact it went directly to you.
 - It will reveal: The sum of withdrawal, the BTC address, that someone around you cashed out $ from new BTC wallet.
+
+**How to make a Bity transaction**
+
+- Go to [bity.com](bity.com).  
+- Select BTC as the currency to use for the withdrawal.  
+- select EUR for the currency that will end up on the account of the friend or family member (any fiat money).
+
+![](pics/bity/first_page.png)
+
+- When amount had been specified - *'Place order'*.  
+- Select *'Continue as Guest'*.
+
+![](pics/bity/guest.png)
+
+- Select *'Other'* for sending wallet.
+
+![](pics/bity/other_wallet.png)
+
+- Confirm (or change if needed) the amount. Press *'Continue'*.
+
+![](pics/bity/confirm_amount.png)
+
+- Enter IBAN to the account the money will be sent to.  
+- Enter BIC/SWIFT.
+- Enter full name of the recepient (friend or family member).  
+- Enter this persons address.  
+- For *'External reference'* one can write *Private loan* to not get any hustle with sudden money to the account.  
+- If there is a wish to get notified in case of any issues: Do not use a doxxed email. Set up an email account via ie. [Protonmail](proton.me) while on tails, to protect against tracking. 
+
+![](pics/bity/information_needed.png)
+
+- *'Place order'* --> Within ten minutes the money need to be send to the address which Bity displays. Use the electrum wallet on tails which has been set up for this purpose.  
+- After the transactions has been sent, verfify on Bity that it is completed.
+
+For this option it's also possible to go through steps in [Anonymizing assets](https://wiki.lunardao.net/anonymizing_assets.html) and then proceed to [bity.com](bity.com) using ETH. See *'How to make a Bity transaction'* above. The only difference is that instead on electrum, a Metamask account is used, and instead of BTC, ETH.
 
 2. **Join local crypto communities/chats**  
 See when someone wants to buy XMR and settle with them.
@@ -79,15 +115,15 @@ Find out who is doing OTC exchanges where you live. This usually cost 1-3% fee f
 
 # Step by Step Practical Examples
 
-In this example we aim to get 900E out from an ATM in a private way, starting from Bitcoin.
+In this example we aim to get 900 Euros out from an ATM in a private way, starting from Bitcoin.
 
 1. Check where your ATM is, what % fees and static fees is included.
 2. Sketch out the whole path of swaps and calculate all the fees.
-3. Install new cake wallet and [Monero cli](https://www.getmonero.org/downloads/#cli) (or [GUI wallet](https://www.getmonero.org/downloads/)) on Linux (preferably on TAILS), or make two Cake Wallets connected to two different nodes.
+3. Install new [Elite wallet](https://elitewallet.sc/) and [Monero cli](https://www.getmonero.org/downloads/#cli) (or [GUI wallet](https://www.getmonero.org/downloads/)) on Linux (preferably on TAILS), or make two [Elite wallets](https://elitewallet.sc/).
 4. Calculate 900E into USD, add all the fees on the way (ATM, swaps, transactions)
-5. Add 1% for volatily (price changes) on top and calculate how much BTC that will be. <!--- .. depending on length of time, price change can be larger than 1% --->
-6. Swap that BTC to XMR using Cake wallet.
-7. Send XMR to another Cake wallet (CLEAN!!! --> this means that the wallet has been set up while protecting IP address and metadata).
+5. Add at least 1% for volatily (price changes) on top and calculate how much BTC that will be. 
+6. Swap that BTC to XMR using [Trocador](trocador.app) or [Majestic bank](majesticbank.sc).
+7. Send XMR to another [Elite wallet](https://elitewallet.sc/) (CLEAN!!! --> this means that the wallet has been set up while protecting IP address and metadata).
 8. Swap to BTC.
 9. Withdraw from non-KYC ATM, be as inconspicuous as possible (read notes on privacy).
 
