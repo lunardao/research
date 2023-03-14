@@ -54,7 +54,7 @@ In case we were paid in USDC/USDT/DAI and want to cash out - How do we get these
 - [Fixed float](fixedfloat.com)  
 - [Stealthex](https://stealthex.io/)
 2. Send to another XMR wallet that is not connected to the same node, or to a XMR wallet that is running on own XMR node. You can use [Cake Wallet](https://cakewallet.com/) for this. This adds complexity in case you are being tracked by any of the services you've used so far. Here is more info on how to [run a node](https://www.monero.how/how-to-run-monero-node). 
-3. Swap to BTC in [Cake Wallet](https://cakewallet.com/), which is not used for other payments. Use Cake wallet with [tor](https://guides.cakewallet.com/docs/advanced-features/tor-with-orbot/).
+3. Swap to BTC in [Cake Wallet](https://cakewallet.com/) using Cake Wallet's exchange feature. Use Cake wallet with [tor](https://guides.cakewallet.com/docs/advanced-features/tor-with-orbot/).
 
 **In case BTC is the coin for the final trade -  Option 2**
 
