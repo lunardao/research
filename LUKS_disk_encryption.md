@@ -55,3 +55,47 @@ sudo chmod 700 /dev/sda1
 
 - Now there should be no problem accessing and creating content on the USB.
 
+# LUKS disk encryption via terminal
+
+```bash
+sudo apt install cryptsetup 
+```
+
+**To see a list of available disks. In terminal, run:**
+
+```bash
+lsblk
+```
+
+- The usual name for external disk are sda, sdb etcetera. The list will also show the size of the disk, which will facilitate identifying which one. The whole path should be:  
+/dev/sda unless more than one USB is being plugged in.
+
+**To encrypt the disk, run:**
+
+```bash
+sudo cryptsetup -y -v luksFormat /dev/sda
+```
+
+- This will warn the user that all content on the disk will be deleted if proceeding.  
+- If accepted --> Enter password.  
+- Completed.
+
+**To open the encrypted disk:**
+
+- Check the name of the device again:
+
+```bash
+lsblk
+```
+
+```bash
+sudo cryptsetup luksOpen /dev/sdb
+```
+- Note that when unlocking the name of the disk will change.  
+- The user is notified (example below, can be a different name): 
+
+>Unlocked /dev/sda as /dev/dm-4.
+
+**Mounting:**
+
+
