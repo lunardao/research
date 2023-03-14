@@ -113,32 +113,33 @@ For this option it's also possible to go through steps in [Anonymizing assets](h
 See when someone wants to buy XMR and settle with them.
 - Advantage: best price, no fees, no %, no hustle, relativelly secure.
 - Reveal: Amount, time and place of the trade to a person who under pressure can reveal these data.
+- https://juraj.bednar.io/en/blog-en/2022/03/14/how-to-create-your-own-crypto-trading-group/
 
 3. **OTC exchange**  
-Find out who is doing OTC exchanges where you live. This usually cost 1-3% fee for withdrawal. The accepted currencies can vary. The benefit is that the OTC exchanger doesn't want to reveal thier customers as this is their source of income. The negative part is that the only base of trust is monetary, though minimum information can be shared.
+Find out who is doing OTC exchanges where you live. This usually cost 1-3% fee for withdrawal. The accepted currencies can vary. The benefit is that the OTC exchanger doesn't want to reveal their customers as this is their source of income. The negative part is that the only base of trust is monetary, though minimum information can be shared.
 
 # Step by Step Practical Examples
 
 In this example we aim to get 900 Euros out from an ATM in a private way, starting from Bitcoin.
 
-1. Check where your ATM is, what % fees and static fees is included.
+1. Check where your ATM is, what % fees and static fees are included.
 2. Sketch out the whole path of swaps and calculate all the fees.
 3. Install new [Cake wallet](https://cakewallet.com/) or [Monerujo](https://www.monerujo.io/) on phone and [Monero cli](https://www.getmonero.org/downloads/#cli) (or [GUI wallet](https://www.getmonero.org/downloads/)) on Linux (preferably on TAILS), or make two [Cake wallets](https://cakewallet.com/).
 4. Calculate 900E into USD, add all the fees on the way (ATM, swaps, transactions)
 5. Add at least 1% for volatily (price changes) on top and calculate how much BTC that will be. 
 6. Swap that BTC to XMR using [Trocador](trocador.app) or [Majestic bank](majesticbank.sc).
 7. Send XMR to another [Cake wallet](https://cakewallet.com/) (CLEAN!!! --> this means that the wallet has been set up while protecting IP address and metadata).
-8. Swap to BTC.
+8. Swap back to BTC using [Trocador](trocador.app) or [Majestic bank](majesticbank.sc). Use a different swap service to prevent the services from performing correlation attacks.
 9. Withdraw from non-KYC ATM, be as inconspicuous as possible (read notes on privacy).
 
 # Note on Privacy
 
-- Remember well what wallets your identity is connected to: your phone, Bank Account, MAC, IP, KYC, paying to your family etc. It would be best to label all of your wallets
+- Remember what wallets your identity is connected to: your phone, Bank Account, MAC, IP, KYC, paying to your family etc. Label all of your wallets if the wallet software allows it. The labels are usually not restored when restoring wallets to different device, so be aware.
 - If aiming for privacy - use:
   - Non-KYC ATMs
   - All "covid prevention" (glasses, gloves and respirator when withdrawing)
-  - Do not walk there with your personal phone in your pocket.
-  - Do not swap big amounts of money with people close to you such as a classmate or colleague just because it's cheaper and non KYC - that person is a security risk for your private tx.
+  - Do not travel there with your personal phone in your pocket.
+  - Do not swap big amounts of money with people close to you such as a classmate or colleague because it's cheaper and non KYC - that person is a security risk for your private tx.
 - You don't always have a need to be fully anonymous, but when you do --> Do not act on hope, use excuses or be lazy. Privacy won't be served by the ones who are the most interested in data gathering and transaction monitoring!
 
 # Resources
