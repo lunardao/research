@@ -16,7 +16,7 @@ Here are some things to keep in mind before starting.
 - If using a regular OS --> Do not operate without hiding IP address and metadata. Use for example [NYM](https://nymtech.net/), [HOPR](https://hoprnet.org/) or [Lokinet](https://lokinet.org/).
 - If nothing else, use VPN, such as [ProtonVPN](https://protonvpn.com/download) or [Mullvad VPN](https://mullvad.net/en/pricing/) (remember that VPNs hides location, but not necessarily metadata. The VPN provider can observe your origination point) or use [Tor browser](https://www.torproject.org/download/).
 - Do not use same wallet which you have used for doxxed crypto and do no not use this wallet going forward with doxxed crypto. This wallet should be completely separate from any other activity you've done on-chain or off. 
-- If applications are used on a phone, such as [Cake wallet](https://cakewallet.com/) the privacy of the phone matters. Take a look at [Privacy setup](https://wiki.lunardao.net/privacy_setup.html) for a more secure phone setup.
+- If applications are used on a phone, such as [Cake wallet](https://cakewallet.com/), the privacy of the phone matters. Take a look at [Privacy setup](https://wiki.lunardao.net/privacy_setup.html) for a more secure phone setup.
 
 Every withdrawal to fiat which is not OTC (to paper cash) or non-KYC ATM (to paper cash) is one way or the other KYCed or traceable. The credit card/bank account to which you are withdrawing is assigned to a real identity and on-chain data is accessible to anyone.
 
@@ -33,7 +33,7 @@ Take few minutes and a sheet of paper. Sketch the whole process before starting 
 # Means of Withdrawing
 
 - **$XMR** (Monero) - is the #1 privacy coin at the moment, though there are more and more privacy projects developing alternatives.
-- Anonymous withdrawals to cash must be Over the Counter (OTC, peer-to-peer) or NON-KYC ATMs.
+- Anonymous withdrawals to cash must be Over the Counter (OTC, peer-to-peer) or non-KYC ATMs.
 - These services usually take BTC (or ETH or some normie coins) but not XMR, so there is a need to exchange or swap BTC without being connected to the original account.
 - To remain private and anonymous we must be absolutely sure to not connect to any accounts/wallets/IPs we use with doxxed crypto and our identity in general.
 
@@ -41,7 +41,7 @@ Take few minutes and a sheet of paper. Sketch the whole process before starting 
 
 In case we were paid in USDC/USDT/DAI and want to cash out - How do we get these to BTC?
 
-## DEX, Bridges, Swaps
+## DEX, Bridges & Swaps
 
 **In case BTC is the coin for the final trade -  Option 1**
 
@@ -49,7 +49,7 @@ In case we were paid in USDC/USDT/DAI and want to cash out - How do we get these
 - Monero can be swapped on [Trocador](trocador.app) which is a swap aggregator or [Majestic Bank](https://majesticbank.sc/). Both of these sites have onion services.
 - In case XMR wasn't the payment method (and BTC is the currency for withdrawal), we need to run our transaction through XMR before getting to the final/"clean" BTC.
 - This means to:
-1. Swap your coin to XMR. use:  
+1. Swap your coin to XMR. Use:  
 - [Trocador](trocador.app)  
 - [Fixed float](fixedfloat.com)  
 - [Stealthex](https://stealthex.io/)
@@ -60,7 +60,7 @@ In case we were paid in USDC/USDT/DAI and want to cash out - How do we get these
 
 - In this option, the assets for withdrawal are in ETH.
 - Go through the steps in [Anonymizing assets](https://wiki.lunardao.net/anonymizing_assets.html).
-1. Swap your coin to XMR. use:  
+1. Swap your coin to XMR. Use:  
 - [Trocador](trocador.app)  
 - [Fixed float](fixedfloat.com)  
 - [Stealthex](https://stealthex.io/)
@@ -69,10 +69,10 @@ In case we were paid in USDC/USDT/DAI and want to cash out - How do we get these
 **Possibilities:**
 
 1. **Bity to family or friend**  
-Run XMR transaction, swap to clean BTC, new TAILS wallet, and use non registered [bity.com](bity.com) transaction (crypto to card) via a friend or a family member, who can withdraw and pass cash. the withdrawal via Bity is limited to 900 Euros at a time.
+Run XMR transaction, swap to clean BTC, new TAILS wallet, and use non registered [bity.com](bity.com) transaction (crypto to card) via a friend or a family member, who can withdraw and pass cash. The withdrawal via Bity is limited to 900 Euros at a time without KYC.
 
-- This will obscure: Where the money originated, what was the total sum, and the fact it went directly to you.
-- It will reveal: The sum of withdrawal, the BTC address, that someone around you cashed out $ from new BTC wallet.
+- **This will obscure:** Where the money originated, what was the total sum, and the fact it went directly to you.
+- **It will reveal:** The sum of withdrawal, the BTC address, that someone around you cashed out $ from new BTC wallet.
 
 **How to make a Bity transaction**
 
@@ -107,12 +107,12 @@ Run XMR transaction, swap to clean BTC, new TAILS wallet, and use non registered
 - *'Place order'* --> Within ten minutes the money need to be send to the address which Bity displays. Use the electrum wallet on tails which has been set up for this purpose.  
 - After the transactions has been sent, verfify on Bity that it is completed.
 
-For this option it's also possible to go through steps in [Anonymizing assets](https://wiki.lunardao.net/anonymizing_assets.html) and then proceed to [bity.com](bity.com) using ETH. See *'How to make a Bity transaction'* above. The only difference is that instead on electrum, a Metamask account is used, and instead of BTC, ETH.
+For this option it's also possible to go through steps in [Anonymizing assets](https://wiki.lunardao.net/anonymizing_assets.html) and then proceed to [bity.com](bity.com) using ETH. See *'How to make a Bity transaction'* above. The only difference is that instead of electrum, a Metamask account is used, and instead of BTC, ETH.
 
 2. **Join local crypto communities/chats**  
 See when someone wants to buy XMR and settle with them.
-- Advantage: best price, no fees, no %, no hustle, relativelly secure.
-- Reveal: Amount, time and place of the trade to a person who under pressure can reveal these data.
+- **Advantage:** best price, no fees, no %, no hustle, relatively secure.
+- **Reveal:** Amount, time and place of the trade to a person who under pressure can reveal these data.
 - https://juraj.bednar.io/en/blog-en/2022/03/14/how-to-create-your-own-crypto-trading-group/
 
 3. **OTC exchange**  
@@ -144,8 +144,8 @@ In this example we aim to get 900 Euros out from an ATM in a private way, starti
 
 # Resources
 
-- ### See [**Privacy tools**](https://wiki.lunardao.net/list_privacy_tools.html) section about *Virtual payment cards* for anonymous payments cards to which the user can deposit crypto.
+- See [**Privacy tools**](https://wiki.lunardao.net/list_privacy_tools.html) section about *Virtual payment cards* for anonymous payments cards to which the user can deposit crypto.
 
-- ### See [**Privacy projects**](https://wiki.lunardao.net/crypto_privacy_projects.html) section on *P2P Trading platforms* about local BTC and Monero exchanges.
+- See [**Privacy projects**](https://wiki.lunardao.net/crypto_privacy_projects.html) section on *P2P Trading platforms* about local BTC and Monero exchanges.
 
-- ### [List of BTC ATMs](https://coinatmradar.com/countries/)
+- [List of BTC ATMs](https://coinatmradar.com/countries/)
