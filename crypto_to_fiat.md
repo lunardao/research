@@ -2,11 +2,11 @@
 
 ## Introduction
 
-This guide is focused on how to withdraw crypto to cash in an anonymous way, which will include ATM and OTC. There might be other solutions out there which we encourage the community to share with each other on the [forum](forum.lunardao.net). 
+This guide is focused on how to withdraw crypto to cash in an anonymous way, which will include ATM and OTC options. There might be other solutions out there which we encourage the community to share with each other on the [forum](forum.lunardao.net). 
 
-Banks are fundamental for economic surveillance. Payment cards track purchases and map out our lives. Not our keys, not our cash - which means that money in the bank is imaginary funds which can be frozen or taken away. This compromises our privacy as well as our autonomy. 
+Banks are fundamental for economic surveillance. Payment cards track purchases and map out our lives. Not our keys, not our cash - which means that money in the bank are imaginary funds which can be frozen or taken away. This compromises our privacy as well as our autonomy. 
 
-There are grey zones in regards to withdrawals, ie. ways to use CEX like Kucoin in an anonymous way. These are not included as the aim is to improve our knowledge and skills for privacy solutions and CEX is centralized, non reliable and counter-intuitive to anyone who seek to develop sovereignty.
+There are grey zones in regards to withdrawals, ie. ways to use a CEX like Kucoin in an anonymous way. These are not included in this guide as the aim is to improve our knowledge and skills for privacy solutions and a CEX is centralized, non reliable and counter-intuitive to anyone who seeks to develop sovereignty.
 
 ## Considerations 
 
@@ -14,9 +14,9 @@ Here are some things to keep in mind before starting.
 
 - It is preferred to start these operations on [Tails](https://tails.boum.org/install/) or in a [Virtual machine](https://wiki.lunardao.net/virtualbox_whonix.html). If so, the second point below is not needed.
 - If using a regular OS --> Do not operate without hiding IP address and metadata. Use for example [NYM](https://nymtech.net/), [HOPR](https://hoprnet.org/) or [Lokinet](https://lokinet.org/).
-- If nothing else, use VPN, such as [ProtonVPN](https://protonvpn.com/download) or [Mullvad VPN](https://mullvad.net/en/pricing/) (remember that VPNs hides location, but not necessarily metadatabut. The VPN provider can observe your origination point) or use [Tor browser](https://www.torproject.org/download/).
-- Do not use same wallet which you are using for doxxed crypto. 
-- If applications are used on a phone, suck as [Cake wallet](https://cakewallet.com/) it the privacy of the phone matters. Take a look at [Privacy setup](https://wiki.lunardao.net/privacy_setup.html) for a more secure phone.
+- If nothing else, use VPN, such as [ProtonVPN](https://protonvpn.com/download) or [Mullvad VPN](https://mullvad.net/en/pricing/) (remember that VPNs hides location, but not necessarily metadata. The VPN provider can observe your origination point) or use [Tor browser](https://www.torproject.org/download/).
+- Do not use same wallet which you have used for doxxed crypto and do no not use this wallet going forward with doxxed crypto. This wallet should be completely separate from any other activity you've done on-chain or off. 
+- If applications are used on a phone, such as [Cake wallet](https://cakewallet.com/) the privacy of the phone matters. Take a look at [Privacy setup](https://wiki.lunardao.net/privacy_setup.html) for a more secure phone setup.
 
 Every withdrawal to fiat which is not OTC (to paper cash) or non-KYC ATM (to paper cash) is one way or the other KYCed or traceable. The credit card/bank account to which you are withdrawing is assigned to a real identity and on-chain data is accessible to anyone.
 
@@ -25,8 +25,8 @@ Privacy is more expensive as the % of conversion/swap fees are higher - usually 
 ## Questions
 
 1. Which crypto currency do you want to convert to, on which network and with which wallet?
-3. What types exchanges do you have access to? ( ie. DEX and swaps)
-4. What tools of withdrawal do you want to use? Which means do you have? (OTC, ATM, bity)
+3. What types of exchanges do you have access to? ( ie. DEX and swaps)
+4. What tools for withdrawal do you want to use? Which means do you have? (OTC, ATM, bity)
 
 Take few minutes and a sheet of paper. Sketch the whole process before starting to move money around. This may save time, risk exposure and savings spent on expensive fees or worse on wrongly made transactions.
 
@@ -39,29 +39,32 @@ Take few minutes and a sheet of paper. Sketch the whole process before starting 
 
 # Crypto We Want to Sell and Tools of Exchanging
 
-In case we got paid in USDC/USDT/DAI and want to cash out - How do we get these to BTC?
+In case we were paid in USDC/USDT/DAI and want to cash out - How do we get these to BTC?
 
 ## DEX, Bridges, Swaps
 
 **In case BTC is the coin for the final trade -  Option 1**
 
 - First, create a BTC wallet (even a hot one for temporary use). Preferrably [**Electrum**](https://electrum.org/#home) on [**TAILS**](https://tails.boum.org/install/) (save the seed and password well, ie. in [KeepassXC](https://keepassxc.org/)).
-- Monero can be swapped on [Trocador](trocador.app).
+- Monero can be swapped on [Trocador](trocador.app) which is a swap aggregator or [Majestic Bank](https://majesticbank.sc/). Both of these sites have onion services.
 - In case XMR wasn't the payment method (and BTC is the currency for withdrawal), we need to run our transaction through XMR before getting to the final/"clean" BTC.
 - This means to:
 1. Swap your coin to XMR. use:  
 - [Trocador](trocador.app)  
 - [Fixed float](fixedfloat.com)  
 - [Stealthex](https://stealthex.io/)
-2. Send to another XMR wallet that is not connected to the same node, or to a XMR wallet that is running on own XMR node. This add complexity in case you are being tracked. Here is more info on how to [run a node](https://www.monero.how/how-to-run-monero-node). 
+2. Send to another XMR wallet that is not connected to the same node, or to a XMR wallet that is running on own XMR node. You can use [Cake Wallet](https://cakewallet.com/) for this. This adds complexity in case you are being tracked by any of the services you've used so far. Here is more info on how to [run a node](https://www.monero.how/how-to-run-monero-node). 
 3. Swap to BTC in [Cake Wallet](https://cakewallet.com/), which is not used for other payments. Use Cake wallet with [tor](https://guides.cakewallet.com/docs/advanced-features/tor-with-orbot/).
 
 **In case BTC is the coin for the final trade -  Option 2**
 
-- The assets for withdrawal is in ETH.
+- In this option, the assets for withdrawal are in ETH.
 - Go through the steps in [Anonymizing assets](https://wiki.lunardao.net/anonymizing_assets.html).
-- Go to [Trocador](trocador.app) or [Fixed float](fixedfloat.com) and swap from ETH to BTC. 
-- Withdraw via non-KYC ATMs (most are KYC, so check carefully). [List of BTC ATMs](https://coinatmradar.com/countries/). The limit is generally 900 Euros. 
+1. Swap your coin to XMR. use:  
+- [Trocador](trocador.app)  
+- [Fixed float](fixedfloat.com)  
+- [Stealthex](https://stealthex.io/)
+2. Withdraw via non-KYC ATMs for BTC (most are KYC, so check carefully). [List of BTC ATMs](https://coinatmradar.com/countries/). The limit is generally 900 Euros. Come prepared with the BTC deposit address and qr-code.
 
 **Possibilities:**
 
