@@ -1,0 +1,83 @@
+# TAILS INSTALLATION AND USAGE
+
+[Tails](https://tails.boum.org/) is a free and opensource portable operating system Debian based that works through a USB stick. It guarantees a temporary safer environment to work on your own computer or somebody else's. Everything done in Tails disappears when it's shut down, leaving no trace on the computer: Tails always starts from a clean slate and doesn't write down anything on the hard disk.
+It's possible to save files and configurations in the Persistent Storage, otherwise everything done in Amnesia will be wiped.
+Tails can't be used alongside the regular OS cause it needs to be booted when starting the device from BIOS/UEFI.
+
+
+## Installation
+
+### Through USB stick
+If there's another trusted Tails user, it's adviced to clone Tails from their stick.
+1. Boot Tails from the device. Most devices don't automatically show the Boot Menu, which needs to be accessed through a key (usually one of these, depending on the manufacturer: Esc, F2, F7, F9, F10, F11, F12).
+2. Start Tails from the Welcome Screen
+3. Verify that this Tails is up-to-date: Applications --> Tails --> About Tails.
+4. Plug the USB stick in which to clone
+5. Applications --> Tails --> Tails installer. Select the USB stick and install. This usually takes 1/2h.
+### Download and verify
+1. [Download Tails](https://tails.boum.org/install/download/index.en.html)
+2. Verify the download through the same link or with OpenPGP signature.
+### Burning Tails on a DVD
+Links for detailed [instructions](https://tails.boum.org/install/dvd/index.en.html) for Windows, Ubuntu and macOS.
+### Running Tails on a virtual machine
+See the example of [Virtualbox](https://wiki.lunardao.net/virtualbox_whonix.html)
+
+
+## Configuration
+1. Boot into Tails from the Boot Menu.
+2. From Welcome Screen configure Language, Keyboard Layout, Formats.
+3. If needed, configure [Persistent Storage](https://tails.boum.org/doc/persistent_storage/index.en.html). This allows to save Documents, Wi-Fi passwords, browser bookmarks and other configurations. Enter a secure Passphrase (check this recommended link on [how to create a secure passphrase](https://theintercept.com/2015/03/26/passphrases-can-memorize-attackers-cant-guess/) and keep it in a safe place: if forgotten, there's no way to access again the Persistent Storage.
+4. Additional Settings: 
+	a. Administrator Password: used to access internal hard disk or to perfrom administrative tasks.
+	b. MAC Address Anonymization: every device has a MAC, serial number used to identify the communications on local network. On Tails its anonymized by default - but this setting can be turned off - by changing the serial number to random values. This feature is useful to prevent tracking the geographical location and to hide the Tor connection, but sometimes it can be suspicious.
+	c. Offline Mode
+	d. Unsafe Browser: by default Tails connects to internet through Tor Network, which hides content, destination and location; there's the possibility to use the Unsafe Browser if needed to connect to a captive portal.
+	
+	
+## Persistent Storage
+Every time Tails is booted, there's the possibility to access the Persistent Storage by entering the Passphrase.
+When Tails is started, select Applications --> Tails --> Persistent Storage. The Pesrsistent Storage has the following possible features:
+1. PersistentDocuments:
+* Persistent Folder: allows to save Documents. To open it, choose Places --> Persistent.
+2. System Settings:
+* Welcome Screen: used to save settings of the Persistent Storage.
+* Printers: printers' configuration saved.
+3. Network:
+* Network Connections: Wi-Fi passwords and configuration of wired networks saved.
+* Tor Bridge: the last Tor bridge used to connect is saved.
+4. Applications:
+* Tor Browser Bookmarks
+* Electrum Bitcoin Wallet
+* Thunderbird Email Client
+* GnuPG: OpenPGP keys created or imported in GnuPG and Kleopatra are saved.
+* Pidgin Internet Messenger: account, contact and chat configurations, OTR encryption keys and keyrings.
+* SSH Client: SSH keys created or imported, publick keys of host connected to, SSH configuartion file (~/.ssh/config)
+5. Advanced Settings:
+* Additional Software: a list of additional software chosen is automatically installed every time Tails is started.
+* Dotfiles
+
+
+## Usage
+
+### Security
+Tails is pre-configured with safe defaults: Tor Borwser with uBlock, Thurnderbird, KeepPassXC, LibreOffice, OnionShare, Metadata Cleaner; every app connects only through Tor and everything in Persisten Storage is automatically encrypted.
+Even though there are still some risks associated with using Tails, listed below, it's a fairly easy way to secure anonymity and it's accessible enough also to less expert users.
+It's very widely knwon and used in the activist, militant and journalism fields, here are some examples:
+* [Abortion activists in Brazil](https://tails.boum.org/news/story_protecting_abortion_activists/index.en.html)
+* [BOAK, Russian Partisan Organization](https://tails.boum.org/contribute/how/user_experience/interviews/boak/)
+* [Other interviews with journalists and activists that use Tails](https://tails.boum.org/contribute/how/user_experience/interviews/)
+LunarDAO fully supports the use of Tails in these fields to avoid state repression and assure freedom; nonetheless, lunarpunk movement believes that privacy is and should be a right for everyone, hence encourage usage of Tails for everybody that feels the need for more privacy.
+ 
+### Warnings
+Tails is designed to be a safer OS than regular ones but there are still some behaviours that can put at risk the anonymous setup:
+- sharing files without wiping metadata
+- using a website in the same session to access more than one account: they can be connected because of the usage of the same Tor circuit. Consider having different Tails sticks.
+- Tails uses the Tor Network by default to connect to internet, which is definitely safer than connecting on the clearnet but still has some vulnerabilities, mainly regarding hiding that Tor is being used and protecting communications from skilled attackers. Tor vulnerabilities include: decrypting through exit node, deanonymization through control of 3 relays of the circuit, eavesdropping on unencrypted communications if not using HTTPS mode only.
+- using Tails on untrusted computers: don't use Tails USB stick as a normal stick, do not plug it when another OS is running and if possible clone Tails directly from a trusted person. If the hardware is compromised, not even Tails can be safe.
+
+### System requirements and Troubleshooting:
+* [System requirements](https://tails.boum.org/doc/about/requirements/index.en.html)
+* [Known issues](https://tails.boum.org/support/known_issues/index.en.html)
+* [Known issues with graphic cards](https://tails.boum.org/support/known_issues/index.en.html)
+
+## [Tails Social Contract](https://tails.boum.org/doc/about/social_contract/index.en.html)
