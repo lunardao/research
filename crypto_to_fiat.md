@@ -65,6 +65,7 @@ In case we were paid in USDC/USDT/DAI and want to cash out - How do we get these
 - [Fixed float](fixedfloat.com)  
 - [Stealthex](https://stealthex.io/)
 2. Withdraw via non-KYC ATMs for BTC (most are KYC, so check carefully). [List of BTC ATMs](https://coinatmradar.com/countries/). The limit is generally 900 Euros. Come prepared with the BTC deposit address and qr-code.
+<!--- violet: the limit is in euros because in USA there's no no-KYC ATMs right?--->
 
 **Possibilities:**
 
@@ -100,7 +101,8 @@ Run XMR transaction, swap to clean BTC, new TAILS wallet, and use non registered
 - Enter full name of the recepient (friend or family member).  
 - Enter this persons address.  
 - For *'External reference'* one can write *Private loan* to not get any hustle with sudden money to the account.  
-- If there is a wish to get notified in case of any issues: Do not use a doxxed email. Set up an email account via ie. [Protonmail](proton.me) while on tails, to protect against tracking. 
+- If there is a wish to get notified in case of any issues: Do not use a doxxed email. Set up an email account via ie. [Protonmail](proton.me) while on tails, to protect against tracking.
+<!---violet: sometimes proton (happened to me once) asks for some kind of verification through email or phone number to set up an account so it could be useful to list here some ways to do that anon (like temporary email providers)---> 
 
 ![](pics/bity/information_needed.png)
 
