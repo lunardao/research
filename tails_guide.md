@@ -84,7 +84,7 @@ When Tails is started, select Applications --> Tails --> Persistent Storage. The
 ### Security
 
 Tails is pre-configured with safe defaults: Tor Browser with uBlock, Thunderbird, KeepPassXC, LibreOffice, OnionShare, Metadata Cleaner; every app connects only through Tor and everything in Persistent Storage is automatically encrypted.
-Even though there are still some risks associated with using Tails, listed below, it's a fairly easy way to secure anonymity and it's accessible enough to a user who has less experience. It's widely known and used in the activist, military and journalism fields, here are some examples:
+Even though there are still some risks associated with using Tails, listed below, it's a fairly easy way to secure anonymity and it's accessible enough to a user who has less experience. It's widely known and used in the activist, militant and journalism fields, here are some examples:
 * [Abortion activists in Brazil](https://tails.boum.org/news/story_protecting_abortion_activists/index.en.html)
 * [BOAK, Russian Partisan Organization](https://tails.boum.org/contribute/how/user_experience/interviews/boak/)
 * [Other interviews with journalists and activists that use Tails](https://tails.boum.org/contribute/how/user_experience/interviews/)
