@@ -10,27 +10,35 @@ Advanced user Monero privacy guide
 - Stealth Addresses
 - Ring Signatures
 - Ring CT
+
 ## What Monero is not
 
 Monero is one of the most private cryptocurrencies currently available along with having the largest user-base. Though, there are trade-offs when using Monero. There is still a risk when using a public blockchain that is currently private. As technology advances or breakthroughs occur, a once private transaction may be broken and publicly visible for attackers to trace. For Monero, this isn't currently possible by any known techniques as of today, but this is a risk with using any public distributed ledger technology.
+
 ## Wallets
 
+#### Desktop Wallet
 - Feather Wallet - [https://featherwallet.org/](https://featherwallet.org/) - Feather Wallet is a desktop power user wallet that gives greater control over features that many mobile wallets overlook. 
 
+
+#### Mobile Wallet
 - Monerujo - [https://www.monerujo.io/](https://www.monerujo.io/)
 - Anonero - [https://gitea.com/ANONERO/ANON/releases](https://gitea.com/ANONERO/ANON/releases)
 
 
 ## Monero Nodes
-- XMR Fail - [https://monero.fail/](https://monero.fail/)
+- XMR Fail - [https://monero.fail/](https://monero.fail/) - Available public XMR nodes including nodes running over Tor are listed here. You can use this resource to choose online nodes you want your wallet software to connect to.
+
 ## Obtaining Monero
 
 - Local Monero - [https://localmonero.co/](https://localmonero.co/)
-- Mining - https://p2pool.io/
+- Mining - [https://p2pool.io/](https://p2pool.io/) - Decentralized monero mining
+- TradeOgre - [https://tradeogre.com/](https://tradeogre.com/) - Crypto to Crypto centralized exchange that has many different trading pairs that doesn't require Know Your Customer (KYC). 
+- Majestic Bank - [https://majesticbank.su/](https://majesticbank.su/)[https://majestictfvnfjgo5hqvmuzynak4kjl5tjs3j5zdabawe6n2aaebldad.onion/](https://majestictfvnfjgo5hqvmuzynak4kjl5tjs3j5zdabawe6n2aaebldad.onion/) Swap exchange that supports XMR, BTC, BCH, FIRO, LTC, & WOW
+- Trocador - [https://trocador.app](https://trocador.app)[http://trocadorfyhlu27aefre5u7zri66gudtzdyelymftvr4yjwcxhfaqsid.onion](http://trocadorfyhlu27aefre5u7zri66gudtzdyelymftvr4yjwcxhfaqsid.onion) - Swap exchange aggregator that finds the best rate for instant swap services. The Trocador site then acts as a proxy to complete the swap.
 
 ## Atomic Swaps
-- Unstoppable Swap GUI **Bitcoin to Monero** - [https://unstoppableswap.net/](https://unstoppableswap.net/)
-
+- Unstoppable Swap GUI **Bitcoin to Monero** - [https://unstoppableswap.net/](https://unstoppableswap.net/) - Trustlessly swap BTC to XMR
 
 ## Spending Best Practices
 
