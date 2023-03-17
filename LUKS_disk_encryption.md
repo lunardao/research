@@ -89,7 +89,7 @@ lsblk
 ```
 
 ```bash
-sudo cryptsetup luksOpen /dev/sdb
+sudo cryptsetup luksOpen /dev/sda
 ```
 - Note that when unlocking the name of the disk will change.  
 - The user is notified (example below, can be a different name): 
@@ -97,5 +97,48 @@ sudo cryptsetup luksOpen /dev/sdb
 >Unlocked /dev/sda as /dev/dm-4.
 
 **Mounting:**
+
+
+fdisk /dev/sda to create a partition
+partprobe dev/sdb
+cryptsetup luksFormat /dev/sdb1
+cryptsetup luksOpen /dev/sdb1 <name of disk>
+
+/dev/mapper/<name of disk>
+
+cryptsetup -v status <name of disk>
+
+mount
+
+vgcreate <name of vg> /dev/mapper/encrypted
+vgdisplay (to display all volume groups in the system)
+
+create logical volume
+
+lvcreate -n <name of logical volume> -L +200M encrypted_vg
+
+lvdisplay (to display logical volume groups)
+
+lsblk -f (shows the file system type)  
+- the logical file system volume does not have a file system time and this need to be assigned
+
+xfs
+
+mkfs.xfs /dev/encrypted_vg/encrypted_lv (will format the partition into accepting the file system)
+
+lsblk -f (shows that the partition has been formatted into xfs)
+
+ls /mnt 
+mkdir /mnt/encryptedfs
+mount /dev/encrypted_vg/encrypted_lv /mnt/encryptedfs
+mount | grep encrypted (to see where the encrypted file system is mounted)
+
+cd /mnt/encryptedfs
+
+mdir <name of directory>
+
+cat ><name of directory>/<name of file>
+<write something you want to append to the new file>
+
 
 
