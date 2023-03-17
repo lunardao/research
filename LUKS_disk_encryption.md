@@ -99,27 +99,66 @@ sudo cryptsetup luksOpen /dev/sda
 **Mounting:**
 
 
-fdisk /dev/sda to create a partition
-partprobe dev/sdb
-cryptsetup luksFormat /dev/sdb1
+# Complete disk encryption
+
+To see all disks:
+
+```bash
+lsblk
+```
+Create a partition:
+
+```bash
+fdisk /dev/<name of disk>
+```
+
+```bash
+partprobe dev/<name of disk>
+```
+
+```bash
+cryptsetup luksFormat /dev/<name of disk>
+```
+
+```bash
 cryptsetup luksOpen /dev/sdb1 <name of disk>
+```
 
+```bash
 /dev/mapper/<name of disk>
+```
 
+```bash
 cryptsetup -v status <name of disk>
+```
 
 mount
 
+```bash
 vgcreate <name of vg> /dev/mapper/encrypted
-vgdisplay (to display all volume groups in the system)
+```
+**To display all volume groups in the system**
 
-create logical volume
+```bash
+vgdisplay 
 
+
+**Create logical volume**
+
+```bash
 lvcreate -n <name of logical volume> -L +200M encrypted_vg
+```
 
-lvdisplay (to display logical volume groups)
+```bash
+lvdisplay
+```
 
-lsblk -f (shows the file system type)  
+**Show the file system type**
+
+```bash
+lsblk -f 
+```
+
 - the logical file system volume does not have a file system time and this need to be assigned
 
 xfs
@@ -137,8 +176,50 @@ cd /mnt/encryptedfs
 
 mdir <name of directory>
 
-cat ><name of directory>/<name of file>
+cat > <name of directory>/<name of file>
 <write something you want to append to the new file>
 
+cat /etc/crypttab (too check if the file contain anything)
 
+cat > /etc/crypttab
+<name of disk> /dev/<device> /root/enpass.txt
 
+root/enpass.txt --> is to store the password to not have to be present to boot the system. this can also be left out and instead the user on request enters the password.
+
+Note: Luks encryption is designed to protect the files system when it is off, not when it is booted. Is someone would get a hold of it, when it is off they cannot decrypt it.
+
+To add the password/passphrase to root/enpass.txt:
+cat > root/enpass.txt (press Enter)
+<write password here>
+
+cryptsetup lukaAddkey /dev/<device> /root/enpass.txt  
+- Enter passphrase
+
+vi /etc/fstab  
+- In the doc add:  
+    - /dev/encrypted_vg/encrypted_lv /mnt/encryptedfs   xfs default 0   0
+
+shutdown -r now
+
+- when restarted  
+- Got to terminal  
+- Type: mount  
+- Type: mount | grep encrypted
+
+cryptsetup luksAddkey /dev/<device> (ie. sda or sdb)  
+- Enter existing passphrase  
+- Enter new passphrase
+
+**Remove old passphrase**
+
+cryptsetup luksRemoveKey /dev/<device>  
+- Enter the old passphrase which should be removed
+
+**Update to new passphrase**
+
+- Type: vi /root/enpass.txt  
+- Delete the old password  
+- Enter the new passphrase  
+- Save & exit
+
+If the /root/enpass.txt in /etc/crypttab is removed, the user will be asked for password when starting the computer.
