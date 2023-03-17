@@ -159,67 +159,118 @@ lvdisplay
 lsblk -f 
 ```
 
-- the logical file system volume does not have a file system time and this need to be assigned
+- the logical file system volume does not have a file system time and this need to be assigned.
 
-xfs
+>xfs
 
-mkfs.xfs /dev/encrypted_vg/encrypted_lv (will format the partition into accepting the file system)
+**Format the partition into accepting the file system**
 
-lsblk -f (shows that the partition has been formatted into xfs)
+```bash
+mkfs.xfs /dev/encrypted_vg/encrypted_lv 
+```
 
-ls /mnt 
+**Show that the partition has been formatted into xfs**
+
+```bash
+lsblk -f
+``` 
+```bash
+ls /mnt
+```
+
+**Create folder**
+
+```bash
 mkdir /mnt/encryptedfs
+```
+
+**Mount**
+
+```bash
 mount /dev/encrypted_vg/encrypted_lv /mnt/encryptedfs
-mount | grep encrypted (to see where the encrypted file system is mounted)
+```
+**See where the encrypted file system is mounted**
 
+```bash
+mount | grep encrypted 
+```
+```bash
 cd /mnt/encryptedfs
-
-mdir <name of directory>
-
+```
+```bash
+mkdir <name of directory>
+```
+```bash
 cat > <name of directory>/<name of file>
-<write something you want to append to the new file>
+```  
+- Press Enter  
+- <write something you want to append to the new file>
 
-cat /etc/crypttab (too check if the file contain anything)
+**Check if the file contains anything**
 
-cat > /etc/crypttab
+```bash
+cat /etc/crypttab 
+```
+```bash
+cat > /etc/crypttab  
+```
 <name of disk> /dev/<device> /root/enpass.txt
 
-root/enpass.txt --> is to store the password to not have to be present to boot the system. this can also be left out and instead the user on request enters the password.
+- root/enpass.txt --> is to store the password to not have to be present to boot the system. this can also be left out and instead the user on request enters the password.
 
-Note: Luks encryption is designed to protect the files system when it is off, not when it is booted. Is someone would get a hold of it, when it is off they cannot decrypt it.
+- **Note:** Luks encryption is designed to protect the files system when it is off, not when it is booted. Is someone would get a hold of it, when it is off they cannot decrypt it.
 
-To add the password/passphrase to root/enpass.txt:
-cat > root/enpass.txt (press Enter)
-<write password here>
+- To add the password/passphrase to root/enpass.txt:
 
+```bash
+cat > root/enpass.txt 
+```  
+- Press Enter  
+- <write password here>
+
+```bash
 cryptsetup lukaAddkey /dev/<device> /root/enpass.txt  
+```  
 - Enter passphrase
 
+```bash
 vi /etc/fstab  
+```  
 - In the doc add:  
     - /dev/encrypted_vg/encrypted_lv /mnt/encryptedfs   xfs default 0   0
 
+```bash
 shutdown -r now
+```
 
-- when restarted  
-- Got to terminal  
-- Type: mount  
-- Type: mount | grep encrypted
-
-cryptsetup luksAddkey /dev/<device> (ie. sda or sdb)  
+- When restarted  
+- Go to terminal  
+```bash
+mount  
+```
+```bash
+mount | grep encrypted
+```
+```bash
+cryptsetup luksAddkey /dev/<device>
+```  
 - Enter existing passphrase  
 - Enter new passphrase
 
 **Remove old passphrase**
 
+```bash
 cryptsetup luksRemoveKey /dev/<device>  
+```  
 - Enter the old passphrase which should be removed
 
 **Update to new passphrase**
 
-- Type: vi /root/enpass.txt  
+```bash
+vi /root/enpass.txt  
+```  
 - Delete the old password  
 - Enter the new passphrase  
 - Save & exit
 
-If the /root/enpass.txt in /etc/crypttab is removed, the user will be asked for password when starting the computer.
+- If the /root/enpass.txt in /etc/crypttab is removed, the user will be asked for password when starting the computer.
