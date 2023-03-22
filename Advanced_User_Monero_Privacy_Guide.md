@@ -18,12 +18,12 @@ Monero is one of the most private cryptocurrencies currently available along wit
 ## Wallets
 
 #### Desktop Wallet
-- Feather Wallet - [https://featherwallet.org/](https://featherwallet.org/) - Feather Wallet is a desktop power user wallet that gives greater control over features that many mobile wallets overlook. 
+- Feather Wallet - [https://featherwallet.org/](https://featherwallet.org/) - Feather Wallet is a desktop power user wallet that gives greater control over features that many mobile wallets overlook. Ships with sane defaults for normal users but can be configured for high or uncommon threat models.
 
 
 #### Mobile Wallet
-- Monerujo - [https://www.monerujo.io/](https://www.monerujo.io/)
-- Anonero - [https://gitea.com/ANONERO/ANON/releases](https://gitea.com/ANONERO/ANON/releases)
+- Monerujo - [https://www.monerujo.io/](https://www.monerujo.io/) - Support for Tor nodes, support for multiple wallets, uses swap service sideshift.ai (doesn't support Tor for sideshift.ai swaps)
+- Anonero - [https://gitea.com/ANONERO/ANON/releases](https://gitea.com/ANONERO/ANON/releases) - Mandatory Tor, enforced seed passphrase, encrypted backups, and no 3rd party services like exchanges/fiat price/etc
 
 
 ## Monero Nodes
