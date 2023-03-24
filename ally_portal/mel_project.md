@@ -42,7 +42,7 @@ MEL is aimed to become a stable and trustless cryptocurrency. Based on a primiti
 
 Mel Project is not a privacy first crypto, neither does not try to portray self as such. However Mel brings interesting answers on often forgotten question of network decentralization, security and privacy. Based on Unix philosophy of light, local clients plugging together into a composable model Mel breaks the currecnt paradigm of overcomplexed on-chain apps. 
 
-**Use Case**
+## Use Case
 
 Crypto frontends are censorship free and not spying users's metadata.  
 
