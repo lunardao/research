@@ -7,7 +7,7 @@ abstract: A quick introduction to Mel project (former Themelio). L1 network with
 
 # Mel Project
 
-**website:** melproject.org](https://melproject.org/en/)
+**website:** [melproject.org](https://melproject.org/en/)
 **production stage:** mainnet beta, possible to [run a node](https://docs.melproject.org/developer-guides/run-a-full-node), [develop a protocol](https://docs.melproject.org/developer-guides/gibbername)
 
 Mel project is a new name for Themelio. At the time of writing the website is very new, for a full documentation see https://docs.themelio.org/. The [vision](https://melproject.org/en/#vision) of Mel project is to build off-chain composable apps with a minimal on-chain interaction to achieve censorship resistance and decentralization. 
@@ -38,12 +38,7 @@ The light clients can be a foundation of private communication. As modern intern
 
 The light clients can be embedded in the browser, run as a daemon, or embedded in the kernel, or as hardware so that the blockchain can become a truly decentralized root of trust. This is only possible if the light client is stable and governance free. As the system only needs to trust the light client, and the client can validate the entire state up to the current height with minimal memory, it's possible to run that client anywhere: phones, raspberry pi's, tiny computer chips, etc.
 
-**Drawback**
-
-The blockchain and p2p communications off-chain has its handicap. There must be a trustworthy organization that does the verification off-chain. There would need to be a solution to replace those with ie a DAO, which comes with a question of how to issue a certificate to an anon and decentralized entity to become a trusted verifier. Such organization could verify that an account (a wallet address) owns a domain for example, issue an NFT certifying the authenticity. 
-
-Users than can visit the DAO's site and see that the organization proves the (ie.) a domain is certified and legitimate.
-
+There must be a trustworthy subject, ie an organization that does the verification. DAOs can take such position. Such organization could verify that an account (a wallet address) owns a domain for example, issue an NFT certifying the authenticity. Users can visit the DAO's site and see that the organization proves that (ie.) a domain is certified and legitimate.
 
 # Conclussion
 
