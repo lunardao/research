@@ -2,7 +2,7 @@
 title: Mel Project
 author: serinko
 date: March 2023
-abstract: A quick introduction to Mel project (former Themelio): L1 network with focus on off-chain composability of decentralized light-weight apps without relying on web2/3 or the smart contract model. 
+abstract: A quick introduction to Mel project (former Themelio). L1 network with focus on off-chain composability of decentralized light-weight apps without relying on web2/3 or the smart contract model. 
 ---
 
 # Mel Project
