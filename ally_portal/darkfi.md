@@ -2,7 +2,7 @@
 title: DarkFi
 author: 
 date: March 2023
-abstract: Introduction to DarkFi: private and anonymous L1 for transactions, DEX, Atomic swaps, NFTs and anon DAO primitive. 
+abstract: Introduction to DarkFi. Private and anonymous L1 for transactions, DEX, Atomic swaps, NFTs and anon DAO primitive. 
 ---
 
 # DarkFi
