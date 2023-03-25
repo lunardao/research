@@ -7,9 +7,9 @@ abstract: A quick introduction to Mel project (former Themelio). L1 network with
 
 # Mel Project
 
-**Website:** [melproject.org](https://melproject.org/en/)
-**Production stage:** mainnet beta, possible to [run a node](https://docs.melproject.org/developer-guides/run-a-full-node), [develop a protocol](https://docs.melproject.org/developer-guides/gibbername)
-**Founder:** Eric Tung ([@nullchinchilla](https://nullchinchilla.me)); also founder of Geph
+**Website:** [melproject.org](https://melproject.org/en/)  
+**Production stage:** mainnet beta, possible to [run a node](https://docs.melproject.org/developer-guides/run-a-full-node), [develop a protocol](https://docs.melproject.org/developer-guides/gibbername)  
+**Founder:** Eric Tung ([@nullchinchilla](https://nullchinchilla.me)); also founder of Geph  
 **Backers:** Polychain Capital
 
 Mel project is a new name for Themelio. At the time of writing the website is very new, for a full documentation see https://docs.themelio.org/. The [vision](https://melproject.org/en/#vision) of Mel project is to build off-chain composable apps with a minimal on-chain interaction to achieve censorship resistance and decentralization. 
@@ -40,7 +40,7 @@ MEL is aimed to become a stable and trustless cryptocurrency. Based on a primiti
 
 # Mel Project & Lunarpunk Mission
 
-Mel Project is not a privacy first crypto, neither does not try to portray self as such. However Mel brings interesting answers on often forgotten question of network decentralization, security and privacy. Based on Unix philosophy of light, local clients plugging together into a composable model Mel breaks the currecnt paradigm of overcomplexed on-chain apps. 
+Mel Project is not a privacy first crypto, neither does not try to portray self as such. However Mel brings interesting answers on often forgotten question of network decentralization, security and privacy. Based on Unix philosophy of light, local clients plugging together into a composable model Mel breaks the current paradigm of overcomplexed on-chain apps. 
 
 ## Use Case
 
@@ -52,9 +52,9 @@ The light clients can be embedded in the browser, run as a daemon, or embedded i
 
 There must be a trustworthy subject, ie an organization that does the verification. DAOs can take such position. Such organization could verify that an account (a wallet address) owns a domain for example, issue an NFT certifying the authenticity. Users can visit the DAO's site and see that the organization proves that (ie.) a domain is certified and legitimate.
 
-# Conclussion
+# Conclusion
 
-Privacy, anonymity and p2p distribution has many layers. Connecting different links to cover all of them is a way for people to be properly shielded. Mel project is not the most outspoken privacy advocate out there, neither the team doesn't promote the lunarpunk vision per se. However their work towards p2p distribution and private network future is sincere and dedicated. The team brings unique solutions whih shall be explored, discussed and supported. 
+Privacy, anonymity and p2p distribution has many layers. Connecting different links to cover all of them is a way for people to be properly shielded. Mel project is not the most outspoken privacy advocate out there, neither is the team promoting the lunarpunk vision per se. However their work towards p2p distribution and private network future is sincere and dedicated. The team brings unique solutions whih shall be explored, discussed and supported. 
 
 
 # Mel Community
