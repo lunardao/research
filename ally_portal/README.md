@@ -6,7 +6,7 @@ Ally portal is a database of organizations on the pursuit of privacy, anonymity 
 
 ### Primitives 
 
-To address the mmost outstanding problems, LunarDAO research committee focuses on the following primitives:
+To address the most outstanding problems, LunarDAO research committee focuses on the following primitives:
 
 | **PRIMITIVE** | **SOLUTION** | **DEV TEAMS** |
 | --- | --- | --- |
