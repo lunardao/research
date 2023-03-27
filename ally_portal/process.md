@@ -18,6 +18,17 @@ We form a decentralized squad of sovereign individuals, lunarpunks, to allocate 
 
 We believe that the loop of tightening regulations and growing demand for privacy and anonymity is inevitable, these events will happen with or without us. We can strenghten the ecosystem, capture the value and grow squad wealth, or be left out in the desert with regressive regFi.
 
-## Governance
+## Governance TL:DR
 
+- Write an [LIP](https://wiki.lunardao.net/lip-0001.html) (LunarDAO Improvement Proposal).  
+- Post in on the forum and discuss with the community.  
+- Announce voting.  
+- Deposit 0.2 ETH to be able to submit a proposal. The deposit is returned when the proposal have been accepted or rejected. If the member have insufficient amount for deposit and offering of 0.x ETH can be given to the treasury. The offering will not b returned. 
+- Submit proposal. 
+- The vote shall be open for 72h, after this time there will be a grace period during which any member can ragequit if they disagree with the outcome of the vote.  
+- 50% + 1 $VOX is needed for a proposal to be approved, otherwise the proposal is rejected.
+- If approved --> Investment is send to the supported project.
 
+More on governance in the [Whitepaper](https://github.com/lunardao/dao#governance)
+
+To get in contact with LunarDAO community and squad, check out our forum, ircd chat, tg and twitter [here](https://lunardao.net/community.html).
