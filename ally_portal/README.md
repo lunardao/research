@@ -23,6 +23,6 @@ LunarDAO is looking into the following projects as a proposal for partnership an
 | --- | --- | --- | --- |
 | **[DarkFi](https://dark.fi)** | Fully anonymous L1, anonymous DAO primitive, lunarpunk vanguards | *[Testnet alpha](https://dark.fi/insights/testnet-v1a.html)* | *[Report](https://github.com/lunardao/research/blob/master/ally_portal/darkfi.md)* |
 | **[Mel Project](https://melproject.org/en/)** | zero-trust, light client, locally based apps - decentralization & network cencorship resistance through high composability | *[Mainnet beta](https://docs.melproject.org/developer-guides/run-a-full-node)* | *[Report](https://github.com/lunardao/research/blob/master/ally_portal/mel_project.md)* |
-| **[Navio](https://navcoin.org/)** | [PePoS: a Privacy-enhanced Proof of Stake protocol](https://medium.com/nav-coin/announcing-pepos-a-privacy-enhanced-proof-of-stake-protocol-95c3149e8bd6) | *[Devnet](https://github.com/aguycalled/blsct-stake)* |  |
+| **[Navcoin](https://navcoin.org/)** | [PePoS: a Privacy-enhanced Proof of Stake protocol](https://medium.com/nav-coin/announcing-pepos-a-privacy-enhanced-proof-of-stake-protocol-95c3149e8bd6) | *[Devnet](https://github.com/aguycalled/blsct-stake)* |  |
 
 ![](https://github.com/lunardao/research/blob/master/pics/f4f819111906135.600a7243caf31.jpg)
