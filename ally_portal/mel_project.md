@@ -7,10 +7,10 @@ abstract: A quick introduction to Mel project (former Themelio). L1 network with
 
 # Mel Project
 
-**Website:** [melproject.org](https://melproject.org/en/)
-**Production stage:** mainnet beta, possible to [run a node](https://docs.melproject.org/developer-guides/run-a-full-node), [develop a protocol](https://docs.melproject.org/developer-guides/gibbername)
-**Founder:** Eric Tung ([@nullchinchilla](https://nullchinchilla.me)); also founder of Geph
-**Backers:** Polychain Capital
+**Website:** [melproject.org](https://melproject.org/en/)\
+**Production stage:** mainnet beta, possible to [run a node](https://docs.melproject.org/developer-guides/run-a-full-node), [develop a protocol](https://docs.melproject.org/developer-guides/gibbername)\
+**Founder:** Eric Tung ([@nullchinchilla](https://nullchinchilla.me)); also founder of Geph\
+**Backers:** Polychain Capital\
 
 Mel project is a new name for Themelio. At the time of writing the website is very new, for a full documentation see https://docs.themelio.org/. The [vision](https://melproject.org/en/#vision) of Mel project is to build off-chain composable apps with a minimal on-chain interaction to achieve censorship resistance and decentralization. 
 
