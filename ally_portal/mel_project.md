@@ -50,7 +50,11 @@ The light clients can be a foundation of private communication. As modern intern
 
 The light clients can be embedded in the browser, run as a daemon, or embedded in the kernel, or as hardware so that the blockchain can become a truly decentralized root of trust. This is only possible if the light client is stable and governance free. As the system only needs to trust the light client, and the client can validate the entire state up to the current height with minimal memory, it's possible to run that client anywhere: phones, raspberry pi's, tiny computer chips, etc.
 
-There must be a trustworthy subject, ie an organization that does the verification. DAOs can take such position. Such organization could verify that an account (a wallet address) owns a domain for example, issue an NFT certifying the authenticity. Users can visit the DAO's site and see that the organization proves that (ie.) a domain is certified and legitimate.
+With a trustworthy light client it's possible to validate a self-signed certificate issued on chain. The simplest example of this is a claim to a name like `lunardao.mel` that maps to a public key and externally routable address like a `.onion`, traditional TLD like `.com`, an IP, or anything else. When a user wants to connect to `lunardao.mel` they first do a lookup on chain, save the cert, route themselves to the address, then verify the cert against the domain. 
+
+## Caveats
+
+Wallets can be hacked. If the owner of `lunardao.mel` is hacked, or tricked into transferring ownership, then the client's will be "trustlessly" phished. This is similar to a traditional Certificate Authority hack with the CA containing only one cert. Taking a note from CA's it might be beneficial to consider a counter measure for such an instance, like introducing an external Certificate Revocation List, trusted 3rd party NFT revocation, and/or UTXO hardening schemes like multisig.
 
 # Conclussion
 
