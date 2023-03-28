@@ -23,12 +23,12 @@ We believe that the loop of tightening regulations and growing demand for privac
 - Write an [LIP](https://wiki.lunardao.net/lip-0001.html) (LunarDAO Improvement Proposal).  
 - Post in on the forum and discuss with the community.  
 - Announce voting.  
-- Deposit 0.2 ETH to be able to submit a proposal. The deposit is returned when the proposal have been accepted or rejected. If the member have insufficient amount for deposit and offering of 0.x ETH can be given to the treasury. The offering will not b returned. 
+- Deposit 0.2 ETH to be able to submit a proposal. The deposit is returned when the proposal have been accepted or rejected. If the member have insufficient amount for deposit and offering of 0.1 ETH can be given to the treasury. The offering will not be returned. 
 - Submit proposal. 
 - The vote shall be open for 72h, after this time there will be a grace period during which any member can ragequit if they disagree with the outcome of the vote.  
 - 50% + 1 $VOX is needed for a proposal to be approved, otherwise the proposal is rejected.
-- If approved --> Investment is send to the supported project.
+- If approved --> Funds sent to the supported project.
 
-More on governance in the [Whitepaper](https://github.com/lunardao/dao#governance)
+More on governance in the [Whitepaper](https://github.com/lunardao/dao#governance).
 
 To get in contact with LunarDAO community and squad, check out our forum, ircd chat, tg and twitter [here](https://lunardao.net/community.html).
