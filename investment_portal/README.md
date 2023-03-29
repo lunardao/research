@@ -32,10 +32,10 @@ To address the most outstanding problems, LunarDAO research committee focuses on
 
 | **PRIMITIVE** | **SOLUTION** | **DEV TEAMS** |
 | --- | --- | --- |
-| **Anonymous DAOs** | Organizational governance without restrictions | DarkFi, Aragon |
+| **Anonymous DAOs** | Organizational governance without restrictions | DarkFi(https://dark.fi), Aragon |
 | **Aztec connect fork** | ETH zk mixer/anonymizer | Open call out! |
-| **Anonymity/privacy first smart-contract L1** | Fully anonymous native layer, allowing for dApps, DAOs etc | DarkFi, Navcoin|
-| **Secure p2p broadcast layer, coin covenants, trustless lightclients,** | Censorship resistant, unix composability, decentralized applications | Mel Project |
+| **Anonymity/privacy first smart-contract L1** | Fully anonymous native layer, allowing for dApps, DAOs etc | DarkFi(https://dark.fi), [Navcoin](https://navcoin.org/) |
+| **Secure p2p broadcast layer, coin covenants, trustless lightclients,** | Censorship resistant, unix composability, decentralized applications | [Mel Project](https://melproject.org/en/) |
 
 ### Projects & Teams
 
