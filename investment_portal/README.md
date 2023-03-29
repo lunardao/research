@@ -1,6 +1,6 @@
-# LunarDAO Ally Portal
+# LunarDAO Investment Portal
 
-Ally portal is a database of organizations on the pursuit of privacy, anonymity and decentralization. This list of projects and primitives is to inform LunarDAO Squad (the investors) about possible investment proposals and to provide step by step information for the teams seaking for support.
+Investment portal is a database of organizations on the pursuit of privacy, anonymity and decentralization. This list of projects and primitives is to inform LunarDAO Squad (the investors) about possible investment proposals and to provide step by step information for the teams seaking for support.
 
 ## Investment Thesis
 
@@ -14,7 +14,7 @@ We don't accept the future to be so grim. The prospect of privacy is ultimately 
 
 ### Solution
 
-We form a decentralized squad of sovereign individuals, lunarpunks, to allocate resources together and assemble squad wealth. The DAO leverages collective power and becomes an investor. The community discuss which tools are needed to empower the ecosystem, the [research committee](https://wiki.lunardao.net/anoma.html) looks for the solutions, lists them in and lists them in the [Ally Portal](https://github.com/lunardao/research/tree/master/ally_portal#primitives). The Squad members  vote on the proposals and invests in the chosen projects.
+We form a decentralized squad of sovereign individuals, lunarpunks, to allocate resources together and assemble squad wealth. The DAO leverages collective power and becomes an investor. The community discuss which tools are needed to empower the ecosystem, the [research committee](https://wiki.lunardao.net/anoma.html) looks for the solutions, lists them in and lists them in the [Investment Portal](https://github.com/lunardao/research/tree/master/investment_portal#primitives). The Squad members  vote on the proposals and invests in the chosen projects.
 
 **Gains**
 
@@ -43,8 +43,8 @@ As a solution to the needed primitives, the following projects are considered to
 
 | **PROJECT** | **DESCRIPTION** | **STAGE** | **RESEARCH** |
 | --- | --- | --- | --- |
-| **[DarkFi](https://dark.fi)** | Fully anonymous L1, anonymous DAO primitive, lunarpunk vanguards | *[Testnet alpha](https://dark.fi/insights/testnet-v1a.html)* | *[Report](https://github.com/lunardao/research/blob/master/ally_portal/darkfi.md)* |
-| **[Mel Project](https://melproject.org/en/)** | zero-trust, light client, locally based apps - decentralization & network cencorship resistance through high composability | *[Mainnet beta](https://docs.melproject.org/developer-guides/run-a-full-node)* | *[Report](https://github.com/lunardao/research/blob/master/ally_portal/mel_project.md)* |
+| **[DarkFi](https://dark.fi)** | Fully anonymous L1, anonymous DAO primitive, lunarpunk vanguards | *[Testnet alpha](https://dark.fi/insights/testnet-v1a.html)* | *[Report](https://github.com/lunardao/research/blob/master/investment_portal/darkfi.md)* |
+| **[Mel Project](https://melproject.org/en/)** | zero-trust, light client, locally based apps - decentralization & network cencorship resistance through high composability | *[Mainnet beta](https://docs.melproject.org/developer-guides/run-a-full-node)* | *[Report](https://github.com/lunardao/research/blob/master/investment_portal/mel_project.md)* |
 | **[Navcoin](https://navcoin.org/)** | [PePoS: a Privacy-enhanced Proof of Stake protocol](https://medium.com/nav-coin/announcing-pepos-a-privacy-enhanced-proof-of-stake-protocol-95c3149e8bd6) | *[Devnet](https://github.com/aguycalled/blsct-stake)* |  |
 
 ![](https://github.com/lunardao/research/blob/master/pics/f4f819111906135.600a7243caf31.jpg)
