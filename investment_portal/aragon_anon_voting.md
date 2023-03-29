@@ -1,8 +1,8 @@
 # Anonymous voting
 
-## [Aragon](https://aragon.org/)
+## [Aragon](https://aragon.org/) - Quick notes
 
-- Anon voting i on alpha stage.
+- Anon voting is in alpha stage.
 
 **Requirements**
 
