@@ -1,6 +1,6 @@
 # Research
 
-Researching privacy projects, anonymity tooling, solutions for users security and decentralization. See more info about the researched primitives and possible investments in [LunarDAO Ally portal](https://github.com/lunardao/research/ally_portal).
+Researching privacy projects, anonymity tooling, solutions for users security and decentralization. See more info about the researched primitives and possible investments in [LunarDAO Investment portal](https://github.com/lunardao/research/investment_portal).
 
 ## Wiki Research Proposals
 
@@ -14,3 +14,4 @@ Researching privacy projects, anonymity tooling, solutions for users security an
 - [ ] Make a guide on how to set up hidden encrypted folders
 - [ ] Advanced user Monero privacy guide
 - [ ] Downloading and verifying software and the importance of verifying the integrity of your software and its sources
+
