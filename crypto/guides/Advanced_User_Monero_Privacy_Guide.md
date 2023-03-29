@@ -66,6 +66,11 @@ Block explorer - transaction and IP address linking: if using a block explorer, 
 [https://moneromarket.io](https://moneromarket.io)
 [https://bitejo.com](https://bitejo.com)
 
+## VPS
+
+[https://kyun.host/](https://kyun.host/)
+
+
 ## Resources
 
 - [https://github.com/monero-project/research-lab/issues/94](https://github.com/monero-project/research-lab/issues/94)
