@@ -1,6 +1,6 @@
 # LunarDAO Investment Portal
 
-Investment portal is a database of organizations on the pursuit of privacy, anonymity and decentralization. This list of projects and primitives is to inform LunarDAO Squad (the investors) about possible investment proposals and to provide step by step information for the teams seaking for support.
+Investment portal is a database of organizations on the pursuit of privacy, anonymity and decentralization. This list of projects and primitives is to inform LunarDAO Squad (the investors) about possible investment proposals and to provide step by step information for the teams seeking for support.
 
 ## Investment Thesis
 
@@ -8,20 +8,20 @@ Investment portal is a database of organizations on the pursuit of privacy, anon
 
 ### Problem
 
-Anonymity and privacy oriented developers will face an increasing difficulty in finding support among traditional VC's and investment funds, because of regulatory measures. This will lead into a dynamic where the developing teams will be forced to sell their work underpriced to counterparties who don't share the same vision. This scenario a portrays privacy as a taboo, developers are under stress and value is extracted from the ecosystem.
+Anonymity and privacy oriented developers will face an increasing difficulty in finding support among traditional VC's and investment funds, because of regulatory measures. This will lead into a dynamic where the developing teams will be forced to sell their work underpriced to counterparties who don't share the same vision. This scenario portrays privacy as a taboo, developers are under stress and value is extracted from the ecosystem.
 
 We don't accept the future to be so grim. The prospect of privacy is ultimately bullish. LunarDAO offers a solution.
 
 ### Solution
 
-We form a decentralized squad of sovereign individuals, lunarpunks, to allocate resources together and assemble squad wealth. The DAO leverages collective power and becomes an investor. The community discuss which tools are needed to empower the ecosystem, the [research committee](https://wiki.lunardao.net/anoma.html) looks for the solutions, lists them in and lists them in the [Investment Portal](https://github.com/lunardao/research/tree/master/investment_portal#primitives). The Squad members  vote on the proposals and invests in the chosen projects.
+We form a decentralized squad of sovereign individuals and lunarpunks, to allocate resources together and assemble squad wealth. The DAO leverages collective power and becomes an investor. The community discusses which tools are needed to empower the ecosystem, the [research committee](https://wiki.lunardao.net/anoma.html) looks for the solutions, and lists them in the [Investment Portal](https://github.com/lunardao/research/tree/master/investment_portal#primitives). The Squad members  vote on the proposals and invest in the chosen projects.
 
 **Gains**
 
-* The privacy projects will get supported by a decentralized, anonymous organization, aligned with their mission.  
+* The privacy projects will get support from a decentralized, anonymous organization, aligned with their mission.  
 * The teams will be provided with the needed resources to develop, grow and deliver.  
 * LunarDAO Squad is a privacy investor building a treasury (portfolio) of accumulated privacy assets.  
-* The value is conserved in the ecosystem, both parties profit from the upcoming cycle.  
+* The value is conserved in the ecosystem, both parties profit from the upcoming lunarpunk cycle.  
 * While leveraging collective power, every individual is protected against majority rule and can exit the DAO any time with 100% of their shares (without any fee).
 
 We believe that the loop of tightening regulations and growing demand for privacy and anonymity is inevitable, these events will happen with or without us. We can strenghten the ecosystem, capture the value and grow squad wealth, or be left out in the desert with regressive regFi.
@@ -51,7 +51,7 @@ As a solution to the needed primitives, the following projects are considered to
 
 ## Process
 
-To support privacy projects by investing in them is the main purpose of LunarDAO. Planting seeds for the lunarpunk dark forest of cryptography, autonomy and users' knowledge. To choose meaningful projects and help them to grow is vital. As a reward for the LunarDAO community is the shared value of these projects in the form of their token and or knowledge and tools they build. It is a mutual harmony in which a growth of one empowers the other and vise versa. This symbiotic but diverse nature slowly but steadily replaces the bare desert of surveillance and hegemony.
+To support privacy projects by investing in them is the main purpose of LunarDAO. Planting seeds for the lunarpunk dark forest of cryptography, autonomy and users' knowledge. To choose meaningful projects and help them grow is vital. A reward for the LunarDAO community is the shared value of these projects in the form of their token and the knowledge and tools they build. It is a mutual harmony in which the growth of one empowers the other and vice versa. This symbiotic relationship slowly but steadily replaces the bare desert of surveillance and hegemony.
 
 ### Investment Flow
 
@@ -77,8 +77,8 @@ LunarDAO Squad votes on the proposal of investment (see [Governance](https://git
 ## Governance TL:DR
 
 - Write an [LIP](https://wiki.lunardao.net/lip-0001.html) (LunarDAO Improvement Proposal).  
-- Post in on the [forum](https://forum.lunardao.net/c/proposals/) and discuss with the community.  
-- When proposal finalized announce voting.  
+- Post in to the [forum](https://forum.lunardao.net/c/proposals/) and discuss with the community.  
+- When proposal is finalized, announce voting.  
 - Submit proposal on-chain
 - The voting is opened for 72h, after this time there will be a grace period during which any member can ragequit if they disagree with the outcome of the vote.  
 - 50% + 1 $VOX of voting amount is needed for a proposal to be approved, otherwise the proposal is rejected.
