@@ -1,6 +1,6 @@
 # LunarDAO Ally Portal
 
-Ally portal is a database of organizations on the pursuit of privacy, anonymity and decentralization. This list of projects and primitives is to inform LunarDAO Squad about possible investment proposals.
+Ally portal is a database of organizations on the pursuit of privacy, anonymity and decentralization. This list of projects and primitives is to inform LunarDAO Squad (the investors) about possible investment proposals and to provide step by step information for the teams seaking for support.
 
 ## Investment Thesis
 
