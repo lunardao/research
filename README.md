@@ -4,7 +4,7 @@ Researching privacy projects, anonymity tooling, solutions for users security an
 
 ## Wiki Research Proposals
 
-### TODOS
+### TODO
 
 - [ ] Create a guide for how people can check what kind and how much data they are leaking (ie. ipleak.net).
 - [ ] Compare VPNs, TOR, mixnets and other tools which claim to protect IP address (and possibly metadata).
