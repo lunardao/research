@@ -5,12 +5,12 @@
 
 *General description of Monero's consensus, security and UTXO based model*  
 
-- Monero follows the UTXO-based model that Bitcoin pioneered and utilizies a few privacy technologies implemented into the core protocol.
-- Monero uses Proof of Work consensus. CPU's are used to mine XMR instead of ASIC.
-- Stealth Addresses
-- Ring Signatures
-- Ring CT
-<!--zero: can the above mentioned be hyperlinked for more info?-->
+- Monero follows the UTXO-based model that Bitcoin pioneered and utilizies a few privacy technologies implemented into the core protocol. When an XMR transaction occurs, an input is destroyed and 16 outputs are created
+- Monero uses a Proof of Work consensus called [RandomX](https://web.getmonero.org/resources/moneropedia/randomx.html). CPU's are used to mine XMR instead of ASIC.
+- Stealth Addresses [Stealth Addresses](https://www.getmonero.org/resources/moneropedia/stealthaddress.html)
+- Ring Signatures [Ring Signatures](https://www.getmonero.org/resources/moneropedia/ringsignatures.html)
+- Ring CT [Ring CT](https://www.getmonero.org/resources/moneropedia/ringCT.html)
+
 
 ## What Monero is not
 
@@ -53,9 +53,9 @@ Monero is one of the most private cryptocurrencies currently available along wit
 
 ## Metadata Considerations | Potential Attack Vectors
 
-- **Timing analysis:** Run a full node. Keep it running 24/7, you can run an open node that other people can route transactions through, which you can hide among these other people routing through this node.
-- **Counterparty surveillance:** Counterparty surveillance is going to be about interacting with potential malicious parties that want to surveill your transactions (it could be a marketplace that reports transaction info to authorities, in the hope of de-anonymizing users).
-- **Churning:** Churning is the act of sending your self funds to create a new ring signature and break the transaction graph. 
+- **Network analysis:** Run a full node & keep it running 24/7, you can run a public node that other people can route transactions through, which you can hide among other users routing through this node.
+- **Counterparty surveillance:** Counterparty surveillance is about interacting with malicious parties that want to surveill your transactions. This can range from a marketplace that reports transaction info to authorities, in the hope of de-anonymizing users, or it could be a malicous merchant that is collecting on-chain and off-chain data.
+- **Churning:** Churning is the act of sending your self funds to create a new ring signature and break the transaction graph. There are pros and cons for churning and there is still discussion if this actually produces the correct outcomes.
 - **Remote node considerations related to timing analysis:** If you routinely connect to a remote node when you're going to spend funds, this network data leaks info about your spending habits. 
 
 Many attackers are observing information on-chain but also grabs off-chain data.
@@ -64,7 +64,7 @@ Many attackers are observing information on-chain but also grabs off-chain data.
 
 - Use TOR, VPN, I2P. Use different browser sessions.
 
-- **Best solution:** run your own node and you can query the information locally.
+- **Best solution:** Run your own node and you can access the information locally.
 
 ## Marketplaces
 
@@ -81,4 +81,5 @@ Many attackers are observing information on-chain but also grabs off-chain data.
 - [Breaking Monero](https://youtube.com/watch?v=n6Bxp0k7Uqg)
 - [Monero's marketcap dominance](https://moneroj.net/dominance/)
 - [Monero on-chain metrics](https://www.monero.how/)
+- [Monero Stack Exchange](https://monero.stackexchange.com/)
 
