@@ -49,9 +49,9 @@ Monero is one of the most private cryptocurrencies currently available along wit
 
 ## Spending Best Practices
 
-- **Advanced attacks:** Poisoned Outputs Attacks (EAE Attacks)- Avoid posting addresses online or re-using addresses. Use a new subaddress for every transaction. Avoid malicious entites on both sides of your transactions. Reduce the interations with malicious parties that could surveil your transactions. 
+- **Advanced attacks:** Poisoned Outputs Attacks (EAE Attacks)- Avoid posting addresses online or re-using addresses. Use a new subaddress for every transaction. Avoid malicious entites on both sides of your transactions. Reduce the interations with potential malicious parties that could surveil your transactions. 
 
-- **Janus attack mitigations:** If trying to completely maintain 100% subaddress unlinkability, use different wallet seeds. This is a tradeoff of convenience for privacy. Who is the adersary in this attack? 
+- **Janus attack mitigations:** If trying to completely maintain 100% subaddress unlinkability, use different wallet seeds. This is a trade-off of convenience for privacy. Who is the adversary in this attack? 
 
 ## Metadata Considerations | Potential Attack Vectors
 
