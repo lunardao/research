@@ -6,7 +6,7 @@
 *General description of Monero's consensus, security and UTXO based model*  
 
 - Monero follows the UTXO-based model that Bitcoin pioneered and utilizies a few privacy technologies (listed below) implemented into the core protocol. 
-<!--- Describe how a tx works---> Transaction outputs are hidden via Ring Signatures. There are 16 possible outputs that are created for the transaction, one real output and 15 false outputs that all look valid to an outside observer. Transaction amounts are hidden via RingCT. Sender and recipient addresses are hidden via Stealth Addresses.
+<!--- Describe how a tx works---> Transaction outputs are hidden via Ring Signatures. There are 16 possible outputs that are created for the transaction, one real output and 15 decoy outputs that all look valid to an outside observer. Transaction amounts are hidden via RingCT. Sender and recipient addresses are hidden via Stealth Addresses.
 When an XMR transaction occurs, an input is destroyed and 16 outputs are created. 
 - Monero uses a Proof of Work consensus with a mining algorithm called [RandomX](https://web.getmonero.org/resources/moneropedia/randomx.html). CPU's are used to mine XMR instead of ASIC.
 - Stealth Addresses [Stealth Addresses](https://www.getmonero.org/resources/moneropedia/stealthaddress.html)
@@ -16,7 +16,7 @@ When an XMR transaction occurs, an input is destroyed and 16 outputs are created
 
 ## What Monero is not
 
-Monero is one of the most private cryptocurrencies currently available along with having the largest user-base. Although, Monero focuses on privacy, there are still trade-offs when using Monero. There is a potential concern for the future when using a blockchain that is currently private. As technology advances or breakthroughs occur, a once private transaction may be broken and publicly visible for attackers to trace. For Monero, this isn't currently possible by any known techniques as of today, but this is a risk with using any distributed ledger technology. The largest your anonymity set can be when using monero is the total amount of Monero users.
+Monero is one of the most private cryptocurrencies currently available along with having the largest user-base. Although, Monero focuses on privacy, there are still trade-offs when using Monero. There is a potential concern for the future when using a blockchain that is currently private. As technology advances or breakthroughs occur, a once private transaction may be broken and publicly visible for attackers to trace. For Monero, this isn't currently possible by any known techniques as of today, but this is a risk with using any distributed ledger technology. The largest your anonymity set can be when using monero is the total amount of Monero users. Monero does not offer perfect privacy, it offers plausible deniability for its users.
 
 ## Wallets
 
@@ -63,6 +63,12 @@ Monero is one of the most private cryptocurrencies currently available along wit
 Many attackers are observing information on-chain but also grab off-chain data.
 
 **Block explorer - transaction and IP address linking:** When using a block explorer, use a hidden service over TOR, I2P, VPN and be sure to Use different browser sessions. The best solution is to run your own node and you can access the information locally.
+
+- **Understanding Hueristics:** There are heuristics that can be used to conclude further information about a Monero transaction.
+
+- **Further Developments & Analysis:** There are developments that are constantly taking place. Technologicial develop and analysis is an arms race. Analysis gets better with time and this evolution is to discover weaknesses in the current protocol. Monero is not bulletproof but technological developments should make Monero stronger going forward.
+
+- **AI and machine learning:**
 
 ## Marketplaces
 
