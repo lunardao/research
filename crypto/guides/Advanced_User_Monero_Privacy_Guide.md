@@ -21,6 +21,36 @@ Transaction amounts are hidden via RingCT. Sender and recipient addresses are hi
 
 Monero is one of the most private cryptocurrencies currently available along with having the largest user-base. Although, Monero focuses on privacy, there are still trade-offs when using Monero. There is a potential future concern whenever using a blockchain that is "currently" private. As technology breakthroughs occur, a once private transaction may be broken and publicly visible for surveillance software to trace. For Monero, this isn't currently possible by any known techniques, but this is a risk with using any distributed ledger technology. When using Monero, the largest your total anonymity set can be is the total amount of Monero users. Monero does not offer perfect privacy, it offers plausible deniability for its users.
 
+## Spending Best Practices
+
+- **Basic Users:** Most users of Monero don't need to take in considerations when using Monero. It works for every day purchases. If there are larger threats to consider such as avoiding sanctions, totalitarian governments, and risk of physical harm, a user should take these potential attacks into consideration. These kinds of attacks are specific in nature and as mentioned previously, do not affect most users. This is an advanced privacy guide for Monero to inform users of best privacy practices.
+
+- **Advanced attacks:** 
+*Poisoned Outputs Attacks (EAE Attacks)* - A Poisoned output attack consists of two colluding parties on either side of a transaction. The user being surveilled is represented by 'A'. The first external party 'E' sends an output to 'A' and monitors the chain for potential paths the output can take. When an output reaches a destination (the second 'E' in the EAE attack) both parties can decide with some degree of certainty the owner 'A'. The more times this occurs, the higher the degree of probabilistic certainty increases.
+
+ Avoid posting addresses online or re-using addresses. Use a new subaddress for every transaction. Avoid malicious parties on both sides of your transactions. Reduce the interations with potential malicious parties that could surveil your transactions. Use different services to limit the chances of you interacting with a service that may surveil your transactions.
+
+*Janus Attacks* - <!---describe what a janus attack is and mitigations---> If trying to completely maintain 100% subaddress unlinkability, use different wallet seeds. This is a trade-off of convenience for privacy. Who is the adversary in this attack? 
+
+## Metadata Considerations | Potential Attack Vectors
+
+- **Network analysis:** Run a full node & keep it running 24/7, you can run a public node that other people can route transactions through, which you can hide among other users routing through this node.
+- **Counterparty surveillance:** Counterparty surveillance is about interacting with malicious parties that want to surveill your transactions. This can range from a marketplace that reports transaction info to authorities, in the hope of de-anonymizing users, or it could be a malicous merchant that is collecting on-chain and off-chain data.
+- **Churning:** Churning is the act of sending your self funds to create a new ring signature and break the transaction graph. This obscures the outputs being created. There are pros and cons for churning and there is still discussion if this actually produces the correct outcomes. See also *Poisoned Outputs Attacks (EAE Attacks)* 
+
+- **Remote node considerations related to timing analysis:** If you routinely connect to a remote node when you're going to spend funds, this network data leaks info about your spending habits. 
+
+Many attackers are observing information on-chain but also grab off-chain data.
+
+**Block explorer - transaction and IP address linking:** When using a block explorer, use a hidden service over TOR, I2P, VPN and be sure to Use different browser sessions. The best solution is to run your own node and you can access the information locally.
+
+- **Understanding Hueristics:** There are heuristics that can be used to conclude further information about a Monero transaction. The more data that a user gives up, which can come from transaction information, transaction partners, network information, metadata, etc. leads to an increase in the statistical analysis by surveilling counter-parties.
+
+- **Further Developments & Analysis:** There are developments that are constantly taking place. Technologicial develop and analysis is an arms race. Analysis gets better with time and this evolution is to discover weaknesses in the current protocol. Monero is not bulletproof but technological developments should make Monero stronger going forward. This includes increasing the ring size while also providing scalability.
+
+- **AI and machine learning:** There is concern that the input selection algorithm and spending habits of individuals may be traceable using tools like Artificial Intelligence or machine learning.
+
+
 ## Wallets
 
 #### Desktop Wallet
@@ -50,34 +80,6 @@ Monero is one of the most private cryptocurrencies currently available along wit
 
 - [Unstoppable Swap](https://unstoppableswap.net/) GUI. Trustlessly swap BTC to XMR. There is no option to swap from XMR to BTC. The only way this will be possible is with a Monero hard-fork.
 
-## Spending Best Practices
-
-- **Basic Users:** Most users of Monero don't need to take in considerations when using Monero. It works for every day purchases. If there are larger threats to consider such as avoiding sanctions, totalitarian governments, and risk of physical harm, a user should take these potential attacks into consideration. These kinds of attacks are specific in nature and as mentioned previously, do not affect most users. This is an advanced privacy guide for Monero to inform users of best privacy practices.
-
-- **Advanced attacks:** 
-*Poisoned Outputs Attacks (EAE Attacks)* - <!---describe what an EAE attack is and mitigations---> A Poisoned output attack consists of two colluding parties on either side of a transaction. The user being surveilled is represented by 'A'. The first external party 'E' sends an output to 'A' and monitors the chain for potential paths the output can take. When an output reaches a destination (the second 'E' in the EAE attack) both parties can decide with some degree of certainty the owner 'A'. The more times this occurs, the higher the degree of probabilistic certainty increases.
-
- Avoid posting addresses online or re-using addresses. Use a new subaddress for every transaction. Avoid malicious parties on both sides of your transactions. Reduce the interations with potential malicious parties that could surveil your transactions. Use different services to limit the chances of you interacting with a service that may surveil your transactions.
-
-*Janus Attacks* - <!---describe what a janus attack is and mitigations---> If trying to completely maintain 100% subaddress unlinkability, use different wallet seeds. This is a trade-off of convenience for privacy. Who is the adversary in this attack? 
-
-## Metadata Considerations | Potential Attack Vectors
-
-- **Network analysis:** Run a full node & keep it running 24/7, you can run a public node that other people can route transactions through, which you can hide among other users routing through this node.
-- **Counterparty surveillance:** Counterparty surveillance is about interacting with malicious parties that want to surveill your transactions. This can range from a marketplace that reports transaction info to authorities, in the hope of de-anonymizing users, or it could be a malicous merchant that is collecting on-chain and off-chain data.
-- **Churning:** Churning is the act of sending your self funds to create a new ring signature and break the transaction graph. This obscures the outputs being created. There are pros and cons for churning and there is still discussion if this actually produces the correct outcomes. See also *Poisoned Outputs Attacks (EAE Attacks)* 
-
-- **Remote node considerations related to timing analysis:** If you routinely connect to a remote node when you're going to spend funds, this network data leaks info about your spending habits. 
-
-Many attackers are observing information on-chain but also grab off-chain data.
-
-**Block explorer - transaction and IP address linking:** When using a block explorer, use a hidden service over TOR, I2P, VPN and be sure to Use different browser sessions. The best solution is to run your own node and you can access the information locally.
-
-- **Understanding Hueristics:** There are heuristics that can be used to conclude further information about a Monero transaction. The more data that a user gives up, which can come from transaction information, transaction partners, network information, metadata, etc. leads to an increase in the statistical analysis by surveilling counter-parties.
-
-- **Further Developments & Analysis:** There are developments that are constantly taking place. Technologicial develop and analysis is an arms race. Analysis gets better with time and this evolution is to discover weaknesses in the current protocol. Monero is not bulletproof but technological developments should make Monero stronger going forward. This includes increasing the ring size while also providing scalability.
-
-- **AI and machine learning:** There is concern that the input selection algorithm and spending habits of individuals may be traceable using tools like Artificial Intelligence or machine learning.
 
 ## Marketplaces
 
