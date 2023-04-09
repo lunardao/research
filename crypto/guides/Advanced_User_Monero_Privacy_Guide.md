@@ -30,7 +30,7 @@ Monero is one of the most private cryptocurrencies currently available along wit
 
  Avoid posting addresses online or re-using addresses. Use a new subaddress for every transaction. Avoid malicious parties on both sides of your transactions. Reduce the interations with potential malicious parties that could surveil your transactions. Use different services to limit the chances of you interacting with a service that may surveil your transactions.
 
-*Janus Attacks* - <!---describe what a janus attack is and mitigations---> If trying to completely maintain 100% subaddress unlinkability, use different wallet seeds. This is a trade-off of convenience for privacy. Who is the adversary in this attack? 
+*Janus Attacks* - <!---describe what a janus attack is and mitigations---> A Janus attack can be mitigated by several measures. Do not confirm receipt of funds, do not publish or share subaddress publicly, and use different wallet seeds for different identitites. If trying to completely maintain 100% subaddress unlinkability, use different wallet seeds. This is a trade-off of convenience for privacy. 
 
 ## Metadata Considerations | Potential Attack Vectors
 
