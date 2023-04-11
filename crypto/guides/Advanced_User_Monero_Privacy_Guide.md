@@ -90,6 +90,7 @@ If a user's outputs are being surveilled, and a user consolidates many outputs i
 - [TradeOgre](https://tradeogre.com/) - Crypto to Crypto centralized exchange that has many different trading pairs and doesn't require Know Your Customer (KYC) information. 
 - [Majestic Bank](https://majesticbank.su/) via onion link:  [https://majestictfvnfjgo5hqvmuzynak4kjl5tjs3j5zdabawe6n2aaebldad.onion/](https://majestictfvnfjgo5hqvmuzynak4kjl5tjs3j5zdabawe6n2aaebldad.onion/). Swap exchange that supports XMR, BTC, BCH, FIRO, LTC, & WOW.
 - [Trocador](https://trocador.app) via onion link: [http://trocadorfyhlu27aefre5u7zri66gudtzdyelymftvr4yjwcxhfaqsid.onion](http://trocadorfyhlu27aefre5u7zri66gudtzdyelymftvr4yjwcxhfaqsid.onion). Swap exchange aggregator that finds the best rate for instant swap services. The Trocador site then acts as a proxy to complete the swap.
+- [Bisq](https://bisq.network) Decentralized exchange built into an open source desktop application. Bisq routes over Tor by default.  Bitcoin is the base currency but Monero has the largest alt-coin volume traded on Bisq. 
 
 ## Atomic Swaps
 
