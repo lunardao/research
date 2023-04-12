@@ -57,7 +57,7 @@ To support privacy projects by investing in them is the main purpose of LunarDAO
 
 *In examples we will use place holders X, Y & Z for supported projects and Tx, Ty & Tz for their tokens*
 
-Project X is proposed to be financialy supported by LunarDAO in exhcange for # of Tx tokens or any other value to the lunarpunk ecosystem. After a community discussion and research an [investment LIP](https://wiki.lunardao.net/lip-0001.html#lip-categories--types) is submitted. In this LIP must be clearly defined:
+Project X is proposed to be financialy supported by LunarDAO in exhcange for # of Tx tokens or any other value to the lunarpunk ecosystem. After a community discussion and research an [investment LIP](https://github.com/lunardao/lip/blob/main/lip-0001.md#lip-categories--types) is submitted. In this LIP must be clearly defined:
 
 ```yaml
 1. Name of the project
@@ -76,7 +76,7 @@ LunarDAO Squad votes on the proposal of investment (see [Governance](https://git
 
 ## Governance TL:DR
 
-- Write an [LIP](https://wiki.lunardao.net/lip-0001.html) (LunarDAO Improvement Proposal).  
+- Write an [LIP](https://github.com/lunardao/lip/blob/main/lip-0001.md) (LunarDAO Improvement Proposal).  
 - Post in to the [forum](https://forum.lunardao.net/c/proposals/) and discuss with the community.  
 - When proposal is finalized, announce voting.  
 - Submit proposal on-chain
