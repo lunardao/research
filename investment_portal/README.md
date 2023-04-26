@@ -33,18 +33,19 @@ To address the most outstanding problems, LunarDAO research committee focuses on
 | **PRIMITIVE** | **SOLUTION** | **DEV TEAMS** |
 | --- | --- | --- |
 | **Anonymous DAOs** | Organizational governance without restrictions | [DarkFi](https://dark.fi), [Aragon](https://github.com/lunardao/research/blob/master/investment_portal/aragon_anon_voting.md) |
-| **Aztec connect fork** | ETH zk mixer/anonymizer | Open call out! |
+| **Fork of zk.money or alternative** | ETH zk mixer/anonymizer | Open call out to [fork zk.money](https://forum.lunardao.net/t/investment-proposal-zk-money-fork/135/3), [Firn Protocol](https://github.com/lunardao/research/blob/master/investment_portal/firn_protocol.md) proposal |
 | **Anonymity/privacy first smart-contract L1** | Fully anonymous native layer, allowing for dApps, DAOs etc | [DarkFi](https://dark.fi), [Navcoin](https://navcoin.org/) |
 | **Secure p2p broadcast layer, coin covenants, trustless lightclients,** | Censorship resistant, unix composability, decentralized applications | [Mel Project](https://melproject.org/en/) |
 
 ### Projects & Teams
 
-As a solution to the needed primitives, the following projects are considered to reach out and invest in their development: 
+As a solution to the needed primitives, the following projects are considered as investment proposals: 
 
 | **PROJECT** | **DESCRIPTION** | **STAGE** | **RESEARCH** |
 | --- | --- | --- | --- |
+| **[Mel Project](https://melproject.org/en/)** | zero-trust, light client, locally based apps - decentralization & network cencorship resistance through high composability | *[Mainnet beta](https://docs.melproject.org/developer-guides/run-a-full-node)* | *[Report](https://github.com/lunardao/research/blob/master/investment_portal/mel_project.md), [discussion](https://forum.lunardao.net/t/investment-proposal-mel-project/133/4)* |
+| **[Firn Protocol](https://docs.firn.cash/)** | state-of-the-art, zero-knowledge privacy utility for Ethereum and EVM-based rollups | *[Mainnet](https://app.firn.cash/)* | *[Report](https://github.com/lunardao/research/blob/master/investment_portal/firn_protocol.md), [discussion](https://forum.lunardao.net/t/investment-proposal-firn-protocol/)* |
 | **[DarkFi](https://dark.fi)** | Fully anonymous L1, anonymous DAO primitive, lunarpunk vanguards | *[Testnet alpha](https://dark.fi/insights/testnet-v1a.html)* | *[Report](https://github.com/lunardao/research/blob/master/investment_portal/darkfi.md)* |
-| **[Mel Project](https://melproject.org/en/)** | zero-trust, light client, locally based apps - decentralization & network cencorship resistance through high composability | *[Mainnet beta](https://docs.melproject.org/developer-guides/run-a-full-node)* | *[Report](https://github.com/lunardao/research/blob/master/investment_portal/mel_project.md)* |
 | **[Navcoin](https://navcoin.org/)** | [PePoS: a Privacy-enhanced Proof of Stake protocol](https://medium.com/nav-coin/announcing-pepos-a-privacy-enhanced-proof-of-stake-protocol-95c3149e8bd6) | *[Devnet](https://github.com/aguycalled/blsct-stake)* |  |
 
 ![](https://github.com/lunardao/research/blob/master/pics/f4f819111906135.600a7243caf31.jpg)
