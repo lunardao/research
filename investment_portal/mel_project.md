@@ -2,7 +2,7 @@
 title: Mel Project
 author: serinko
 date: March 2023
-abstract: A quick introduction to Mel project (former Themelio). L1 network with focus on off-chain composability of decentralized light-weight apps without relying on web2/3 or the smart contract model. 
+abstract: A quick introduction to Mel project (former Themelio). L1 network with focus on off-chain composability of decentralized light-weight apps without relying on web2/3 or the smart contract model. Second part is the initial invesmtment proposal by @nullchinchilla.
 ---
 
 # Mel Project
@@ -71,4 +71,59 @@ Mel has linux vibes when it comes to their philosophy, approach and tools. The t
 * [Telegram](https://t.me/mel_project)
 * [Discord](https://discord.gg/qfg35paESn)
 * [Twitter](https://twitter.com/melproject_org)
+
+---
+
+***The following part is @nullchinchilla's initial investment proposal draft from our [forum](https://forum.lunardao.net/t/investment-proposal-mel-project/133/5?u=ogma) from April 27th, 2023***
+
+---
+
+Here is an attempt at a proposal; let me know if there's anything that needs clarification/elaboration! I've actually never written DAO proposals before...
+
+---
+
+# About the project
+
+Mel is an L1 blockchain built around the principle of **off-chain composability** --- decentralized, censorship-resistant protocols composing off-chain, rather than through on-chain smart contract interfaces. Thus, it focuses on providing the *minimum* blockchain that has:
+- Trustless, performant light clients that can be deployed to every endpoint
+- Enough on-chain scripting to achieve "functionality escape velocity" (see Vitalik's blogpost on this subject)
+- Maximal economic security (e.g. very harsh slashing penalties)
+
+A minimal blockchain is also important for Mel to be *governance-free* --- no consensus rule changes after the stable mainnet launches. This is very important for credible neutrality, but usual L1 blockchains cannot commit to governance-freedom. But an L1 blockchain that aims to have very easy-to-implement light clients sitting in software stacks all around the internet can do so, since coordinating governance is basically impossible (e.g. IPv4 is here to stay!).
+
+Useful links:
+- Website: https://melproject.org
+- New docs: https://docs.melproject.org
+
+# Form of the investment
+
+Right now, the project does not have publicly tradable tokens. We also aim to launch the SYM (PoS investment token) token in a compliant, locked-up fashion, probably on a platform like Coinlist, though they will eventually unlock as our network becomes a fully ossified and decentralized system.
+
+Thus, the easiest way is probably the SAFT token proposal previous mentioned.
+
+We can also print a "dummy"/placeholder ERC-20 token on Ethereum ($PPwSYM, "pinky promise wSYM"), that will act as tokens eventually redeemable for wSYM --- once lockup period for the SYM token launch is over --- through a trustless cross-chain bridge to Mel. That will essentially be a "SAFT" as well.
+
+## Numbers
+
+Right now, we are seeking to raise $3-5M in total for our seed round. Ideally, as much of this is raised in a decentralized way from aligned communities like LunarDAO.
+
+However, to not fragment things too much, we are looking at a minimum investment of something on the order of $100,000.
+
+Valuation is negotiable, but note that our preseed in 2020 was at a $15M FDV.
+
+# Partnership opportunities
+
+Given that we share a similar lunarpunk/agorist vision, there are many ways that Mel and LunarDAO can work together with lots of mutual upside:
+
+## Betanet $MEL and $SYM grants for LunarDAO members
+
+This will on one hand incentivize lunarpunk-adjacent developers to start building in Mel's off-chain composable ecosystem --- either new protocols or integrations with existing "alt-web" network protocols like Nostr, Matrix, and the like.
+
+On the other hand, it'll also be a great monetary incentive to join LunarDAO to gain access to Mel grants.
+
+## DAO infrastructure collaboration
+
+An important usecase for Mel is as a credibly neutral settlement layer for off-chain DAOs built with state channels, off-chain signature aggregation and the like. LunarDAO, as a DAO highly committed to privacy, censorship resistance, and decentralization, would be a great partner to work with to understand the needs of DAOs and beta-test/dogfood off-chain DAO infrastructure.
+
+Mel can provide research support, token grants, and such in a collaborative project to build out a truly blockchain-community-neutral, self-sovereign DAO protocol.
 
