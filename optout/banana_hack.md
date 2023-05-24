@@ -222,7 +222,7 @@ Open the Wallace Toolbox app in the phone menu. Use index numbers to navigate. T
 
 **Important:** Test it few times without a sim card. After each reboot dial `*#06#` to confirm the IMEI number was edited. To maintain privacy, remove the phone back cover before the IMEI edit. When the phone turns off to reboot take off the battery and exchange sim cards. Assemble and power on.
 
-### 3. Expert Setup - Replacing iOS
+### 3. Expert Setup - Replacing OS
 
 *To be tested and docummented soon.*
 
