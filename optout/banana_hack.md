@@ -206,7 +206,7 @@ adb pull /data/local/webapps/webapps.json
 ```sh
 cp webapps.json webapps.json.bak
 ```
-4. Open ~/webapps.json in a text editor
+4. Open downloaded *webapps.json* in a text editor
 5. Search every app to be set as removable and edit the dictionary line in the sub-dictionary from `"removable": false,` to `"removable": true,`.  Save & exit.
 6. Push the modified file back to the phone:
 ```sh
@@ -223,6 +223,8 @@ Open the Wallace Toolbox app in the phone menu. Use index numbers to navigate. T
 **Important:** Test it few times without a sim card. After each reboot dial `*#06#` to confirm the IMEI number was edited. To maintain privacy, remove the phone back cover before the IMEI edit. When the phone turns off to reboot take off the battery and exchange sim cards. Assemble and power on.
 
 ### 3. Expert Setup - Replacing OS
+
+This setup replace the originall KaiOS with Gerda OS. Gerda OS by default has no Google services and IMEI randomization is semi-automatized (a user does not have to type the IMEI manually just pushes a button to randomize). However the installation requires good knowledge of Linux and the logic behind phone's backend and bootloader.
 
 *To be tested and docummented soon.*
 
