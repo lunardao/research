@@ -73,9 +73,10 @@ If a user's outputs are being surveilled, and a user consolidates many outputs i
 
 ### Mobile Wallet
 
-- [Monerujo](https://www.monerujo.io/): Includes support for Tor nodes, multiple wallets, uses swap service sideshift.ai (doesn't support Tor for sideshift.ai swaps).
+- [Monerujo](https://www.monerujo.io): Includes support for Tor nodes, multiple wallets, uses swap service sideshift.ai (doesn't support Tor for sideshift.ai swaps).
 - [Anonero](https://gitea.com/ANONERO/ANON/releases): Mandatory Tor, enforced seed passphrase, encrypted backups, and no 3rd party services like exchanges/fiat price.
 - [Monero.com wallet](https://github.com/cake-tech/cake_wallet/releases): Was created by the CakeWallet team. An open source monero only wallet with support for Tor nodes, multiple wallet support, and uses swap service [trocador.app](https://trocador.app).
+- [Mysu](hyyps://mysu.dev) via onion link: [http://rk63tc3isr7so7ubl6q7kdxzzws7a7t6s467lbtw2ru3cwy6zu6w4jad.onion/](http://rk63tc3isr7so7ubl6q7kdxzzws7a7t6s467lbtw2ru3cwy6zu6w4jad.onion/). Includes Tor and I2P support, coin control, seed offsets, churning option when selecting UTXOs, and mutli-destination transactions
 
 ## Monero Nodes
 
