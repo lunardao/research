@@ -19,12 +19,14 @@ Swaps currently only work one direction as of June 2023. Bitcoin --> Monero. The
 - Input the XMR address that you'd like to receive to.
 - Input a BTC address that you'll receive a refund to (this refund is only there if something goes wrong during the trade, all bitcoin will be returned to the BTC address)
 - Select **Start Swap**
-- Your client will communicate the fee with the market maker, then you will receive a Bitcoin deposit address. Send Bitcoin to this address. 
+- Your client will communicate the fee with the market maker, then you will receive a Bitcoin deposit address. Send Bitcoin to this deposit address. 
     - You are given a range that the market maker will accept, you can send any amount between this range
     - Your bitcoin will need to reach 2 confirmations before the market maker locks up their Monero
-    - The Monero is locked up for 10 confirmations before the market maker can withdraw their BTC
+    - The Monero is locked up for 10 confirmations before the marketmaker has the BTC deposited to their address
     - After the market maker is allowed to withdraw their new BTC, you're XMR is deposited in the wallet address you provided before.
+- After the designated amount of confirmations, you now have your XMR!
 
+#####Running unstoppableswap-GUI over TOR
 
 
 
@@ -39,7 +41,7 @@ Swaps currently only work one direction as of June 2023. Bitcoin --> Monero. The
   
 - Download latest binary **asb** release [https://github.com/comit-network/xmr-btc-swap/releases](https://github.com/comit-network/xmr-btc-swap/releases)  
 
-  
+####Rendezvous points:
   
 swap list-sellers --rendezvous-point /dnsaddr/rendezvous.coblox.tech/p2p/12D3KooWQUt9DkNZxEn2R5ymJzWj15MpG6mTW84kyd8vDaRZi46o  - Not Live
   
@@ -51,4 +53,6 @@ swap list-sellers --rendezvous-point /dns4/eratosthen.es/tcp/7798/p2p/12D3KooWAh
   
 /dnsaddr/xmrswap.me/p2p/12D3KooWEKJYMDstzF4i8V4LqH8xfUYRQv4p6uyA3uisKp4HaQtP
   
-/dns4/xmrswap.loki/tcp/9942/p2p/12D3KooWCcFVKnFf2u1c4t47fiHLNKSnC4g6wh2i7nkczjwYRWG3
+/dns4/xmrswap.loki/tcp/9942/p2p/12D3KooWCcFVKnFf2u1c4t47fiHLNKSnC4g6wh2i7nkczjwYRWG3  
+  
+/onion3/xmrswapnme3snsgr2oydj2fmgao2l7acpyzncwnacmi5i5vbgnqby4id:9941/p2p/12D3KooWMFQrFiecB72zbCPWbHWiN7K2U7QAxMit8
