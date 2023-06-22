@@ -71,5 +71,3 @@ swap list-sellers --rendezvous-point /dns4/xmrswap.loki/tcp/9942/p2p/12D3KooWCcF
   
 swap list-sellers --rendezvous-point /onion3/xmrswapnme3snsgr2oydj2fmgao2l7acpyzncwnacmi5i5vbgnqby4id:9941/p2p/12D3KooWMFQrFiecB72zbCPWbHWiN7K2U7QAxMit8  
     
-testing:   
-/ip4/45.138.50.29/tcp/9939
