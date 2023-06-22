@@ -54,7 +54,9 @@ To initate a swap, input this command:
   
 - Download latest binary **asb** release [https://github.com/comit-network/xmr-btc-swap/releases](https://github.com/comit-network/xmr-btc-swap/releases)  
 
-####Rendezvous points:
+####Rendezvous points and providers
+
+https://xmrswap.me/#providers
   
 swap list-sellers --rendezvous-point /dnsaddr/rendezvous.coblox.tech/p2p/12D3KooWQUt9DkNZxEn2R5ymJzWj15MpG6mTW84kyd8vDaRZi46o  - Not Live
   
@@ -67,6 +69,7 @@ swap list-sellers --rendezvous-point /dnsaddr/xmrswap.me/p2p/12D3KooWEKJYMDstzF4
   
 swap list-sellers --rendezvous-point /dns4/xmrswap.loki/tcp/9942/p2p/12D3KooWCcFVKnFf2u1c4t47fiHLNKSnC4g6wh2i7nkczjwYRWG3  
   
-swap list-sellers --rendezvous-point --tor-socks5-port /onion3/xmrswapnme3snsgr2oydj2fmgao2l7acpyzncwnacmi5i5vbgnqby4id:9941/p2p/12D3KooWMFQrFiecB72zbCPWbHWiN7K2U7QAxMit8  
+swap list-sellers --rendezvous-point /onion3/xmrswapnme3snsgr2oydj2fmgao2l7acpyzncwnacmi5i5vbgnqby4id:9941/p2p/12D3KooWMFQrFiecB72zbCPWbHWiN7K2U7QAxMit8  
     
-  
+testing:   
+/ip4/45.138.50.29/tcp/9939
