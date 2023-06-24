@@ -34,7 +34,10 @@ Swaps currently only work one direction as of June 2023. Bitcoin --> Monero. The
   
 ##Other potential topics: How to swap only using the CLI: COMIT Swap CLI    
   
-- Download latest binary **swap** release for your system[https://github.com/comit-network/xmr-btc-swap/releases](https://github.com/comit-network/xmr-btc-swap/releases)  
+- Download latest binary **swap** release for your system[https://github.com/comit-network/xmr-btc-swap/releases](https://github.com/comit-network/xmr-btc-swap/releases)    
+-   
+- To verify is an ASB is online: ./swap list-sellers --rendezvous-point /dns4/discover.unstoppableswap.net/tcp/8888/p2p/12D3KooWA6cnqJpVnreBVnoro8midDL9Lpzmg8oJPoAGi7YYaamE
+
   
 To initate a swap, input this command:
 - *swap buy-xmr --change-address <bitcoin-change-address> --receive-address <monero-receive-address> --seller <seller> --tor-socks5-port <tor-socks5-port>
