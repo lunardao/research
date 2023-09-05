@@ -48,4 +48,4 @@ swap list-sellers --rendezvous-point /dnsaddr/xmrswap.me/p2p/12D3KooWEKJYMDstzF4
 swap list-sellers --rendezvous-point /dns4/xmrswap.loki/tcp/9942/p2p/12D3KooWCcFVKnFf2u1c4t47fiHLNKSnC4g6wh2i7nkczjwYRWG3  
   
 swap list-sellers --rendezvous-point /onion3/xmrswapnme3snsgr2oydj2fmgao2l7acpyzncwnacmi5i5vbgnqby4id:9941/p2p/12D3KooWMFQrFiecB72zbCPWbHWiN7K2U7QAxMit8  
-    
+    git 
